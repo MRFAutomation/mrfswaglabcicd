@@ -24,7 +24,9 @@ public class LoginTest extends BaseTest {
 	public void beforeClass() throws IOException {
 		loginPage = new LoginPage();
 		try {
-
+			iStream = getClass().getClassLoader().getResourceAsStream("loginUsers.json");
+			JSONTokener tokener = new JSONTokener(iStream);
+			loginUsers = new JSONObject(tokener);
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
@@ -32,9 +34,6 @@ public class LoginTest extends BaseTest {
 				iStream.close();
 			}
 		}
-		iStream = getClass().getClassLoader().getResourceAsStream("loginUsers.json");
-		JSONTokener tokener = new JSONTokener(iStream);
-		loginUsers = new JSONObject(tokener);
 	}
 
 	@Test()
@@ -45,6 +44,7 @@ public class LoginTest extends BaseTest {
 
 		String actualTxt = loginPage.getTxt();
 		String expectedTxt = strings.get("login_page_invalid_username_or_password_error");
+		
 		Assert.assertEquals(actualTxt, expectedTxt);
 	}
 

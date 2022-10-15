@@ -6,19 +6,17 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.qa.test.ProductDetailsTest">
+      <class name="com.qa.test.LoginTest">
         <methods>
-          <include name="validateProdTitleDetailsPrice"/>
-          <include name="validateProdTitlePrice"/>
-          <include name="afterTest"/>
           <include name="afterClass"/>
-          <include name="validateProdDetailsAndPrice"/>
+          <include name="afterTest"/>
+          <include name="successfulLogin"/>
           <include name="beforeTest"/>
           <include name="beforeClass"/>
-          <include name="validateProdDetailsAndPriceWithDeeplink"/>
-          <include name="validateProdTitlePriceWithDeeplink"/>
+          <include name="incorrectPassword"/>
+          <include name="incorrectUser"/>
         </methods>
-      </class> <!-- com.qa.test.ProductDetailsTest -->
+      </class> <!-- com.qa.test.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [SwagLab] -->

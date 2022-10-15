@@ -51,7 +51,7 @@ public class TestUtils {
 	
 //	Get DateTime
 	public String dateTime() {
-		System.out.println("Date_Time_Mrthod_Called");
+		System.out.println("Date_Time_Method_Called");
 		DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss");
 		Date date = new Date();
 		return dateFormat.format(date);
