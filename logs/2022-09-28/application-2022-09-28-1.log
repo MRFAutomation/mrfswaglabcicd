@@ -1,0 +1,254 @@
+[INFO ] 28 Sep 2022 08:32:41,519 qa.base.BaseTest:44 - Properties object created
+[INFO ] 28 Sep 2022 08:32:41,530 qa.base.BaseTest:48 - Properties file loaded
+[INFO ] 28 Sep 2022 08:32:41,539 qa.base.BaseTest:52 - parseStringXML method called
+[INFO ] 28 Sep 2022 08:32:41,541 qa.base.BaseTest:55 - DesiredCapabilities object created
+[INFO ] 28 Sep 2022 08:32:41,541 qa.base.BaseTest:65 - Required DesiredCapabilities are set
+[INFO ] 28 Sep 2022 08:32:59,799 qa.base.BaseTest:70 - AndroidDriver object created
+[INFO ] 28 Sep 2022 08:32:59,799 qa.base.BaseTest:76 - closing configis
+[INFO ] 28 Sep 2022 08:32:59,800 qa.base.BaseTest:80 - closing stringis
+[INFO ] 28 Sep 2022 08:33:00,377 qa.test.ProductDetailsTest:49 -  ++++++++++++++ validateProdTitlePrice ++++++++++++++ 
+[INFO ] 28 Sep 2022 08:33:00,383 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Username})
+[INFO ] 28 Sep 2022 08:33:01,553 qa.base.BaseTest:102 - sendKeys - Located by By.chained({By.AccessibilityId: test-Username}): Enter UserName
+[INFO ] 28 Sep 2022 08:33:01,640 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Password})
+[INFO ] 28 Sep 2022 08:33:02,173 qa.base.BaseTest:102 - sendKeys - Located by By.chained({By.AccessibilityId: test-Password}): Enter Password
+[INFO ] 28 Sep 2022 08:33:02,256 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGIN})
+[INFO ] 28 Sep 2022 08:33:03,031 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-LOGIN}): Press Login Button
+[INFO ] 28 Sep 2022 08:33:03,118 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 28 Sep 2022 08:33:04,384 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})text: getSLBTitle from ProductsPage
+[INFO ] 28 Sep 2022 08:33:04,510 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})
+[INFO ] 28 Sep 2022 08:33:04,594 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})text: getSLBPrice from ProductsPage
+[INFO ] 28 Sep 2022 08:33:04,721 qa.base.BaseTest:123 - getting android driver
+[INFO ] 28 Sep 2022 08:33:05,035 qa.test.ProductDetailsTest:70 -  ++++++++++++++ validateProdTitleDetailsPrice ++++++++++++++ 
+[INFO ] 28 Sep 2022 08:33:05,037 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Username})
+[INFO ] 28 Sep 2022 08:33:15,903 qa.base.BaseTest:123 - getting android driver
+[INFO ] 28 Sep 2022 08:33:16,557 qa.test.ProductDetailsTest:97 -  ++++++++++++++ validateProdDetailsAndPrice ++++++++++++++ 
+[INFO ] 28 Sep 2022 08:33:16,557 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Username})
+[INFO ] 28 Sep 2022 08:33:27,070 qa.base.BaseTest:123 - getting android driver
+[INFO ] 28 Sep 2022 08:33:27,678 qa.test.ProductDetailsTest:134 -  ++++++++++++++ validateProdTitlePriceWithDeeplink ++++++++++++++ 
+[INFO ] 28 Sep 2022 08:33:27,682 qa.base.BaseTest:123 - getting android driver
+[INFO ] 28 Sep 2022 08:33:27,733 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 28 Sep 2022 08:33:28,407 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})text: getSLBTitle from ProductsPage
+[INFO ] 28 Sep 2022 08:33:28,499 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})
+[INFO ] 28 Sep 2022 08:33:28,589 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})text: getSLBPrice from ProductsPage
+[INFO ] 28 Sep 2022 08:33:28,673 qa.base.BaseTest:123 - getting android driver
+[INFO ] 28 Sep 2022 08:33:29,293 qa.test.ProductDetailsTest:156 -  ++++++++++++++ validateProdDetailsAndPriceWithDeeplink ++++++++++++++
+[INFO ] 28 Sep 2022 08:33:29,293 qa.base.BaseTest:123 - getting android driver
+[INFO ] 28 Sep 2022 08:33:29,351 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 28 Sep 2022 08:33:30,013 qa.base.BaseTest:95 - click - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]}): Press SLB Title from ProductsPage
+[INFO ] 28 Sep 2022 08:33:30,135 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})
+[INFO ] 28 Sep 2022 08:33:31,421 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})text: getSLBTitleProdDetails from ProductDetailsPage
+[INFO ] 28 Sep 2022 08:33:31,476 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})
+[INFO ] 28 Sep 2022 08:33:31,536 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})text: getProdDetailsSlbDetails from ProductDetailsPage
+[INFO ] 28 Sep 2022 08:33:31,591 qa.base.BaseTest:115 - scrollToElement - Methode scrollToElement called from ProductDetailsTest_validateProdDetailsAndPrice
+[INFO ] 28 Sep 2022 08:33:35,969 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Price})
+[INFO ] 28 Sep 2022 08:33:36,086 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.AccessibilityId: test-Price})text: getProdDetailsSlbPrice from ProductDetailsPage
+[INFO ] 28 Sep 2022 08:33:36,139 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-BACK TO PRODUCTS})
+[INFO ] 28 Sep 2022 08:33:36,183 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-BACK TO PRODUCTS}): Press pressBackToProductsBtn from ProductDetailsPage
+[INFO ] 28 Sep 2022 08:33:36,253 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 28 Sep 2022 08:33:37,178 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})text: getSLBTitle from ProductsPage
+[INFO ] 28 Sep 2022 08:33:37,240 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})
+[INFO ] 28 Sep 2022 08:33:37,298 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})text: getSLBPrice from ProductsPage
+[INFO ] 28 Sep 2022 08:33:37,367 qa.base.BaseTest:123 - getting android driver
+[INFO ] 28 Sep 2022 08:33:37,973 qa.base.BaseTest:129 - afterTest - quitting driver
+[INFO ] 28 Sep 2022 08:36:43,224 qa.base.BaseTest:44 - Properties object created
+[INFO ] 28 Sep 2022 08:36:43,227 qa.base.BaseTest:48 - Properties file loaded
+[INFO ] 28 Sep 2022 08:36:43,235 qa.base.BaseTest:52 - parseStringXML method called
+[INFO ] 28 Sep 2022 08:36:43,237 qa.base.BaseTest:55 - DesiredCapabilities object created
+[INFO ] 28 Sep 2022 08:36:43,237 qa.base.BaseTest:65 - Required DesiredCapabilities are set
+[INFO ] 28 Sep 2022 08:36:49,551 qa.base.BaseTest:70 - AndroidDriver object created
+[INFO ] 28 Sep 2022 08:36:49,553 qa.base.BaseTest:76 - closing configis
+[INFO ] 28 Sep 2022 08:36:49,553 qa.base.BaseTest:80 - closing stringis
+[INFO ] 28 Sep 2022 08:36:49,920 qa.test.ProductDetailsTest:49 -  ++++++++++++++ validateProdTitlePrice ++++++++++++++ 
+[INFO ] 28 Sep 2022 08:36:49,924 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Username})
+[INFO ] 28 Sep 2022 08:36:50,955 qa.base.BaseTest:102 - sendKeys - Located by By.chained({By.AccessibilityId: test-Username}): Enter UserName
+[INFO ] 28 Sep 2022 08:36:51,535 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Password})
+[INFO ] 28 Sep 2022 08:36:52,119 qa.base.BaseTest:102 - sendKeys - Located by By.chained({By.AccessibilityId: test-Password}): Enter Password
+[INFO ] 28 Sep 2022 08:36:52,203 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGIN})
+[INFO ] 28 Sep 2022 08:36:52,745 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-LOGIN}): Press Login Button
+[INFO ] 28 Sep 2022 08:36:52,835 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 28 Sep 2022 08:36:54,054 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})text: getSLBTitle from ProductsPage
+[INFO ] 28 Sep 2022 08:36:54,148 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})
+[INFO ] 28 Sep 2022 08:36:54,321 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})text: getSLBPrice from ProductsPage
+[INFO ] 28 Sep 2022 08:36:54,465 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Menu})
+[INFO ] 28 Sep 2022 08:36:54,522 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-Menu}): Press Menu Button from - MenuPage
+[INFO ] 28 Sep 2022 08:36:54,627 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGOUT})
+[INFO ] 28 Sep 2022 08:36:56,320 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-LOGOUT}): Press Logout Button from - SettingsPage
+[INFO ] 28 Sep 2022 08:36:56,408 qa.test.ProductDetailsTest:70 -  ++++++++++++++ validateProdTitleDetailsPrice ++++++++++++++ 
+[INFO ] 28 Sep 2022 08:36:56,408 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Username})
+[INFO ] 28 Sep 2022 08:36:58,137 qa.base.BaseTest:102 - sendKeys - Located by By.chained({By.AccessibilityId: test-Username}): Enter UserName
+[INFO ] 28 Sep 2022 08:36:58,683 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Password})
+[INFO ] 28 Sep 2022 08:36:59,213 qa.base.BaseTest:102 - sendKeys - Located by By.chained({By.AccessibilityId: test-Password}): Enter Password
+[INFO ] 28 Sep 2022 08:36:59,269 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGIN})
+[INFO ] 28 Sep 2022 08:36:59,802 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-LOGIN}): Press Login Button
+[INFO ] 28 Sep 2022 08:36:59,872 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 28 Sep 2022 08:37:01,055 qa.base.BaseTest:95 - click - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]}): Press SLB Title from ProductsPage
+[INFO ] 28 Sep 2022 08:37:01,186 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})
+[INFO ] 28 Sep 2022 08:37:02,292 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})text: getSLBTitleProdDetails from ProductDetailsPage
+[INFO ] 28 Sep 2022 08:37:02,350 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})
+[INFO ] 28 Sep 2022 08:37:02,405 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})text: getProdDetailsSlbDetails from ProductDetailsPage
+[INFO ] 28 Sep 2022 08:37:02,470 qa.base.BaseTest:115 - scrollToElement - Methode scrollToElement called from ProductDetailsTest_validateProdTitleDetailsPrice
+[INFO ] 28 Sep 2022 08:37:05,590 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Price})
+[INFO ] 28 Sep 2022 08:37:05,687 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.AccessibilityId: test-Price})text: getProdDetailsSlbPrice from ProductDetailsPage
+[INFO ] 28 Sep 2022 08:37:05,774 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Menu})
+[INFO ] 28 Sep 2022 08:37:05,815 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-Menu}): Press Menu Button from - MenuPage
+[INFO ] 28 Sep 2022 08:37:05,886 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGOUT})
+[INFO ] 28 Sep 2022 08:37:07,609 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-LOGOUT}): Press Logout Button from - SettingsPage
+[INFO ] 28 Sep 2022 08:37:07,688 qa.test.ProductDetailsTest:97 -  ++++++++++++++ validateProdDetailsAndPrice ++++++++++++++ 
+[INFO ] 28 Sep 2022 08:37:07,689 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Username})
+[INFO ] 28 Sep 2022 08:37:09,406 qa.base.BaseTest:102 - sendKeys - Located by By.chained({By.AccessibilityId: test-Username}): Enter UserName
+[INFO ] 28 Sep 2022 08:37:09,448 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Password})
+[INFO ] 28 Sep 2022 08:37:09,967 qa.base.BaseTest:102 - sendKeys - Located by By.chained({By.AccessibilityId: test-Password}): Enter Password
+[INFO ] 28 Sep 2022 08:37:10,514 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGIN})
+[INFO ] 28 Sep 2022 08:37:11,039 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-LOGIN}): Press Login Button
+[INFO ] 28 Sep 2022 08:37:11,102 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 28 Sep 2022 08:37:12,358 qa.base.BaseTest:95 - click - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]}): Press SLB Title from ProductsPage
+[INFO ] 28 Sep 2022 08:37:12,484 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})
+[INFO ] 28 Sep 2022 08:37:13,578 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})text: getSLBTitleProdDetails from ProductDetailsPage
+[INFO ] 28 Sep 2022 08:37:13,621 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})
+[INFO ] 28 Sep 2022 08:37:13,664 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})text: getProdDetailsSlbDetails from ProductDetailsPage
+[INFO ] 28 Sep 2022 08:37:13,709 qa.base.BaseTest:115 - scrollToElement - Methode scrollToElement called from ProductDetailsTest_validateProdDetailsAndPrice
+[INFO ] 28 Sep 2022 08:37:17,023 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Price})
+[INFO ] 28 Sep 2022 08:37:17,120 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.AccessibilityId: test-Price})text: getProdDetailsSlbPrice from ProductDetailsPage
+[INFO ] 28 Sep 2022 08:37:17,174 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-BACK TO PRODUCTS})
+[INFO ] 28 Sep 2022 08:37:17,206 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-BACK TO PRODUCTS}): Press pressBackToProductsBtn from ProductDetailsPage
+[INFO ] 28 Sep 2022 08:37:17,270 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 28 Sep 2022 08:37:18,181 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})text: getSLBTitle from ProductsPage
+[INFO ] 28 Sep 2022 08:37:18,228 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})
+[INFO ] 28 Sep 2022 08:37:18,286 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})text: getSLBPrice from ProductsPage
+[INFO ] 28 Sep 2022 08:37:18,350 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Menu})
+[INFO ] 28 Sep 2022 08:37:18,378 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-Menu}): Press Menu Button from - MenuPage
+[INFO ] 28 Sep 2022 08:37:18,448 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGOUT})
+[INFO ] 28 Sep 2022 08:37:20,132 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-LOGOUT}): Press Logout Button from - SettingsPage
+[INFO ] 28 Sep 2022 08:37:20,202 qa.test.ProductDetailsTest:134 -  ++++++++++++++ validateProdTitlePriceWithDeeplink ++++++++++++++ 
+[INFO ] 28 Sep 2022 08:37:20,204 qa.base.BaseTest:123 - getting android driver
+[INFO ] 28 Sep 2022 08:37:20,271 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 28 Sep 2022 08:37:21,970 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})text: getSLBTitle from ProductsPage
+[INFO ] 28 Sep 2022 08:37:22,019 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})
+[INFO ] 28 Sep 2022 08:37:22,074 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})text: getSLBPrice from ProductsPage
+[INFO ] 28 Sep 2022 08:37:22,136 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Menu})
+[INFO ] 28 Sep 2022 08:37:22,166 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-Menu}): Press Menu Button from - MenuPage
+[INFO ] 28 Sep 2022 08:37:22,232 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGOUT})
+[INFO ] 28 Sep 2022 08:37:23,889 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-LOGOUT}): Press Logout Button from - SettingsPage
+[INFO ] 28 Sep 2022 08:37:23,967 qa.test.ProductDetailsTest:156 -  ++++++++++++++ validateProdDetailsAndPriceWithDeeplink ++++++++++++++
+[INFO ] 28 Sep 2022 08:37:23,968 qa.base.BaseTest:123 - getting android driver
+[INFO ] 28 Sep 2022 08:37:24,038 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 28 Sep 2022 08:37:25,769 qa.base.BaseTest:95 - click - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]}): Press SLB Title from ProductsPage
+[INFO ] 28 Sep 2022 08:37:25,866 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})
+[INFO ] 28 Sep 2022 08:37:26,955 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})text: getSLBTitleProdDetails from ProductDetailsPage
+[INFO ] 28 Sep 2022 08:37:27,003 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})
+[INFO ] 28 Sep 2022 08:37:27,059 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})text: getProdDetailsSlbDetails from ProductDetailsPage
+[INFO ] 28 Sep 2022 08:37:27,107 qa.base.BaseTest:115 - scrollToElement - Methode scrollToElement called from ProductDetailsTest_validateProdDetailsAndPrice
+[INFO ] 28 Sep 2022 08:37:30,221 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Price})
+[INFO ] 28 Sep 2022 08:37:30,313 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.AccessibilityId: test-Price})text: getProdDetailsSlbPrice from ProductDetailsPage
+[INFO ] 28 Sep 2022 08:37:30,348 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-BACK TO PRODUCTS})
+[INFO ] 28 Sep 2022 08:37:30,377 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-BACK TO PRODUCTS}): Press pressBackToProductsBtn from ProductDetailsPage
+[INFO ] 28 Sep 2022 08:37:30,453 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 28 Sep 2022 08:37:31,374 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})text: getSLBTitle from ProductsPage
+[INFO ] 28 Sep 2022 08:37:31,447 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})
+[INFO ] 28 Sep 2022 08:37:31,498 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})text: getSLBPrice from ProductsPage
+[INFO ] 28 Sep 2022 08:37:31,555 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Menu})
+[INFO ] 28 Sep 2022 08:37:31,615 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-Menu}): Press Menu Button from - MenuPage
+[INFO ] 28 Sep 2022 08:37:31,702 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGOUT})
+[INFO ] 28 Sep 2022 08:37:33,419 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-LOGOUT}): Press Logout Button from - SettingsPage
+[INFO ] 28 Sep 2022 08:37:33,485 qa.base.BaseTest:129 - afterTest - quitting driver
+[INFO ] 28 Sep 2022 16:25:22,665 qa.base.BaseTest:44 - Properties object created
+[INFO ] 28 Sep 2022 16:25:22,669 qa.base.BaseTest:48 - Properties file loaded
+[INFO ] 28 Sep 2022 16:25:22,686 qa.base.BaseTest:52 - parseStringXML method called
+[INFO ] 28 Sep 2022 16:25:22,687 qa.base.BaseTest:55 - DesiredCapabilities object created
+[INFO ] 28 Sep 2022 16:25:22,688 qa.base.BaseTest:65 - Required DesiredCapabilities are set
+[INFO ] 28 Sep 2022 16:25:39,915 qa.base.BaseTest:70 - AndroidDriver object created
+[INFO ] 28 Sep 2022 16:25:39,916 qa.base.BaseTest:76 - closing configis
+[INFO ] 28 Sep 2022 16:25:39,919 qa.base.BaseTest:80 - closing stringis
+[INFO ] 28 Sep 2022 16:25:40,461 qa.test.ProductDetailsTest:49 -  ++++++++++++++ validateProdTitlePrice ++++++++++++++ 
+[INFO ] 28 Sep 2022 16:25:40,466 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Username})
+[INFO ] 28 Sep 2022 16:25:42,179 qa.base.BaseTest:102 - sendKeys - Located by By.chained({By.AccessibilityId: test-Username}): Enter UserName
+[INFO ] 28 Sep 2022 16:25:42,866 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Password})
+[INFO ] 28 Sep 2022 16:25:43,416 qa.base.BaseTest:102 - sendKeys - Located by By.chained({By.AccessibilityId: test-Password}): Enter Password
+[INFO ] 28 Sep 2022 16:25:43,614 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGIN})
+[INFO ] 28 Sep 2022 16:25:44,158 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-LOGIN}): Press Login Button
+[INFO ] 28 Sep 2022 16:25:44,316 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 28 Sep 2022 16:25:45,945 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})text: getSLBTitle from ProductsPage
+[INFO ] 28 Sep 2022 16:25:46,171 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})
+[INFO ] 28 Sep 2022 16:25:46,670 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})text: getSLBPrice from ProductsPage
+[INFO ] 28 Sep 2022 16:25:46,894 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Menu})
+[INFO ] 28 Sep 2022 16:25:46,991 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-Menu}): Press Menu Button from - MenuPage
+[INFO ] 28 Sep 2022 16:25:47,168 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGOUT})
+[INFO ] 28 Sep 2022 16:25:48,847 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-LOGOUT}): Press Logout Button from - SettingsPage
+[INFO ] 28 Sep 2022 16:25:49,059 qa.test.ProductDetailsTest:70 -  ++++++++++++++ validateProdTitleDetailsPrice ++++++++++++++ 
+[INFO ] 28 Sep 2022 16:25:49,060 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Username})
+[INFO ] 28 Sep 2022 16:25:51,021 qa.base.BaseTest:102 - sendKeys - Located by By.chained({By.AccessibilityId: test-Username}): Enter UserName
+[INFO ] 28 Sep 2022 16:25:51,617 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Password})
+[INFO ] 28 Sep 2022 16:25:52,136 qa.base.BaseTest:102 - sendKeys - Located by By.chained({By.AccessibilityId: test-Password}): Enter Password
+[INFO ] 28 Sep 2022 16:25:52,215 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGIN})
+[INFO ] 28 Sep 2022 16:25:52,755 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-LOGIN}): Press Login Button
+[INFO ] 28 Sep 2022 16:25:52,921 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 28 Sep 2022 16:25:54,523 qa.base.BaseTest:95 - click - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]}): Press SLB Title from ProductsPage
+[INFO ] 28 Sep 2022 16:25:54,744 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})
+[INFO ] 28 Sep 2022 16:25:56,167 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})text: getSLBTitleProdDetails from ProductDetailsPage
+[INFO ] 28 Sep 2022 16:25:56,299 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})
+[INFO ] 28 Sep 2022 16:25:56,464 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})text: getProdDetailsSlbDetails from ProductDetailsPage
+[INFO ] 28 Sep 2022 16:25:56,815 qa.base.BaseTest:115 - scrollToElement - Methode scrollToElement called from ProductDetailsTest_validateProdTitleDetailsPrice
+[INFO ] 28 Sep 2022 16:26:01,408 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Price})
+[INFO ] 28 Sep 2022 16:26:01,522 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.AccessibilityId: test-Price})text: getProdDetailsSlbPrice from ProductDetailsPage
+[INFO ] 28 Sep 2022 16:26:01,607 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Menu})
+[INFO ] 28 Sep 2022 16:26:01,734 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-Menu}): Press Menu Button from - MenuPage
+[INFO ] 28 Sep 2022 16:26:01,904 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGOUT})
+[INFO ] 28 Sep 2022 16:26:03,612 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-LOGOUT}): Press Logout Button from - SettingsPage
+[INFO ] 28 Sep 2022 16:26:03,736 qa.test.ProductDetailsTest:97 -  ++++++++++++++ validateProdDetailsAndPrice ++++++++++++++ 
+[INFO ] 28 Sep 2022 16:26:03,737 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Username})
+[INFO ] 28 Sep 2022 16:26:05,511 qa.base.BaseTest:102 - sendKeys - Located by By.chained({By.AccessibilityId: test-Username}): Enter UserName
+[INFO ] 28 Sep 2022 16:26:05,641 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Password})
+[INFO ] 28 Sep 2022 16:26:06,164 qa.base.BaseTest:102 - sendKeys - Located by By.chained({By.AccessibilityId: test-Password}): Enter Password
+[INFO ] 28 Sep 2022 16:26:06,753 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGIN})
+[INFO ] 28 Sep 2022 16:26:07,257 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-LOGIN}): Press Login Button
+[INFO ] 28 Sep 2022 16:26:07,381 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 28 Sep 2022 16:26:08,743 qa.base.BaseTest:95 - click - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]}): Press SLB Title from ProductsPage
+[INFO ] 28 Sep 2022 16:26:08,909 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})
+[INFO ] 28 Sep 2022 16:26:10,245 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})text: getSLBTitleProdDetails from ProductDetailsPage
+[INFO ] 28 Sep 2022 16:26:10,344 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})
+[INFO ] 28 Sep 2022 16:26:10,446 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})text: getProdDetailsSlbDetails from ProductDetailsPage
+[INFO ] 28 Sep 2022 16:26:10,576 qa.base.BaseTest:115 - scrollToElement - Methode scrollToElement called from ProductDetailsTest_validateProdDetailsAndPrice
+[INFO ] 28 Sep 2022 16:26:14,822 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Price})
+[INFO ] 28 Sep 2022 16:26:14,867 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.AccessibilityId: test-Price})text: getProdDetailsSlbPrice from ProductDetailsPage
+[INFO ] 28 Sep 2022 16:26:14,925 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-BACK TO PRODUCTS})
+[INFO ] 28 Sep 2022 16:26:14,962 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-BACK TO PRODUCTS}): Press pressBackToProductsBtn from ProductDetailsPage
+[INFO ] 28 Sep 2022 16:26:15,044 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 28 Sep 2022 16:26:16,022 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})text: getSLBTitle from ProductsPage
+[INFO ] 28 Sep 2022 16:26:16,118 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})
+[INFO ] 28 Sep 2022 16:26:16,239 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})text: getSLBPrice from ProductsPage
+[INFO ] 28 Sep 2022 16:26:16,383 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Menu})
+[INFO ] 28 Sep 2022 16:26:16,440 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-Menu}): Press Menu Button from - MenuPage
+[INFO ] 28 Sep 2022 16:26:16,572 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGOUT})
+[INFO ] 28 Sep 2022 16:26:18,321 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-LOGOUT}): Press Logout Button from - SettingsPage
+[INFO ] 28 Sep 2022 16:26:18,400 qa.test.ProductDetailsTest:134 -  ++++++++++++++ validateProdTitlePriceWithDeeplink ++++++++++++++ 
+[INFO ] 28 Sep 2022 16:26:18,403 qa.base.BaseTest:123 - getting android driver
+[INFO ] 28 Sep 2022 16:26:18,606 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 28 Sep 2022 16:26:20,414 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})text: getSLBTitle from ProductsPage
+[INFO ] 28 Sep 2022 16:26:20,501 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})
+[INFO ] 28 Sep 2022 16:26:20,641 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})text: getSLBPrice from ProductsPage
+[INFO ] 28 Sep 2022 16:26:20,760 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Menu})
+[INFO ] 28 Sep 2022 16:26:20,823 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-Menu}): Press Menu Button from - MenuPage
+[INFO ] 28 Sep 2022 16:26:20,978 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGOUT})
+[INFO ] 28 Sep 2022 16:26:22,739 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-LOGOUT}): Press Logout Button from - SettingsPage
+[INFO ] 28 Sep 2022 16:26:22,882 qa.test.ProductDetailsTest:156 -  ++++++++++++++ validateProdDetailsAndPriceWithDeeplink ++++++++++++++
+[INFO ] 28 Sep 2022 16:26:22,885 qa.base.BaseTest:123 - getting android driver
+[INFO ] 28 Sep 2022 16:26:23,108 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 28 Sep 2022 16:26:24,942 qa.base.BaseTest:95 - click - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]}): Press SLB Title from ProductsPage
+[INFO ] 28 Sep 2022 16:26:25,061 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})
+[INFO ] 28 Sep 2022 16:26:26,394 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})text: getSLBTitleProdDetails from ProductDetailsPage
+[INFO ] 28 Sep 2022 16:26:26,501 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})
+[INFO ] 28 Sep 2022 16:26:26,631 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})text: getProdDetailsSlbDetails from ProductDetailsPage
+[INFO ] 28 Sep 2022 16:26:26,726 qa.base.BaseTest:115 - scrollToElement - Methode scrollToElement called from ProductDetailsTest_validateProdDetailsAndPrice
+[INFO ] 28 Sep 2022 16:26:30,833 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Price})
+[INFO ] 28 Sep 2022 16:26:31,002 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.AccessibilityId: test-Price})text: getProdDetailsSlbPrice from ProductDetailsPage
+[INFO ] 28 Sep 2022 16:26:31,064 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-BACK TO PRODUCTS})
+[INFO ] 28 Sep 2022 16:26:31,137 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-BACK TO PRODUCTS}): Press pressBackToProductsBtn from ProductDetailsPage
+[INFO ] 28 Sep 2022 16:26:31,227 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 28 Sep 2022 16:26:32,172 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})text: getSLBTitle from ProductsPage
+[INFO ] 28 Sep 2022 16:26:32,268 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})
+[INFO ] 28 Sep 2022 16:26:32,376 qa.base.BaseTest:109 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})text: getSLBPrice from ProductsPage
+[INFO ] 28 Sep 2022 16:26:32,482 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Menu})
+[INFO ] 28 Sep 2022 16:26:32,567 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-Menu}): Press Menu Button from - MenuPage
+[INFO ] 28 Sep 2022 16:26:32,673 qa.base.BaseTest:87 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGOUT})
+[INFO ] 28 Sep 2022 16:26:34,424 qa.base.BaseTest:95 - click - Located by By.chained({By.AccessibilityId: test-LOGOUT}): Press Logout Button from - SettingsPage
+[INFO ] 28 Sep 2022 16:26:34,530 qa.base.BaseTest:129 - afterTest - quitting driver

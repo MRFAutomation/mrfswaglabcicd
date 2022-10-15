@@ -1,0 +1,1 @@
+26:Android:null:com.qa.base.BaseTest:waitForElementVisibility - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Cart drop zone"]/android.view.ViewGroup/android.widget.TextView})

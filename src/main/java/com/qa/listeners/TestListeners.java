@@ -19,12 +19,15 @@ import com.qa.utils.TestUtils;
 import com.qa.reports.ExtentReport;
 
 public class TestListeners implements ITestListener {
+	TestUtils utils = new TestUtils();
+
 	public void onTestFailure(ITestResult result) {
 		if (result.getThrowable() != null) {
 			StringWriter sw = new StringWriter();
 			PrintWriter pw = new PrintWriter(sw);
 			result.getThrowable().printStackTrace(pw);
 			System.out.println(sw.toString());
+//			utils.log(sw.toString());
 		}
 
 		String scrShortPath = "screenshot" + File.separator + "Android_OS12_Emulator" + File.separator
@@ -46,16 +49,16 @@ public class TestListeners implements ITestListener {
 		ExtentReport.getTest().fail("Test case failed with exception: " + result.getThrowable(),
 				MediaEntityBuilder.createScreenCaptureFromPath(scrCompletePath).build());
 	}
-	
+
 	public void onTestStart(ITestResult result) {
-		ExtentReport.startTest(result.getName(), result.getMethod().getDescription()).assignCategory("Android_Pixel4_Emulator")
+		ExtentReport.startTest(result.getName(), result.getMethod().getDescription()).assignCategory("Android_Device")
 				.assignAuthor("Muhammad Rana Farhan");
 	}
-	
+
 	public void onTestSuccess(ITestResult result) {
 		ExtentReport.getTest().log(Status.PASS, "Test Passed");
 	}
-	
+
 	public void onFinish(ITestContext context) {
 		ExtentReport.getExtentReporter().flush();
 	}

@@ -1,0 +1,316 @@
+2022-10-11 05:48:58:583 [Appium] Welcome to Appium v1.22.0
+2022-10-11 05:48:58:584 [Appium] Non-default server args:
+2022-10-11 05:48:58:585 [Appium]   logFile: C:\Users\eBricks\eclipse-workspace\SwagLabParallel\ServerLogs\server.log
+2022-10-11 05:48:58:606 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2022-10-11 05:48:58:638 [HTTP] --> GET /wd/hub/status
+2022-10-11 05:48:58:639 [HTTP] {}
+2022-10-11 05:48:58:640 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-10-11 05:48:58:641 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.0"}}
+2022-10-11 05:48:58:648 [HTTP] <-- GET /wd/hub/status 200 7 ms - 68
+2022-10-11 05:48:58:648 [HTTP] 
+2022-10-11 05:48:59:025 [HTTP] Request idempotency key: 83dc05c6-eed3-41da-a53e-2d41c913898c
+2022-10-11 05:48:59:035 [HTTP] --> POST /wd/hub/session
+2022-10-11 05:48:59:035 [HTTP] {"desiredCapabilities":{"appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","avdLaunchTimeout":180000,"automationName":"UiAutomator2","platformName":"Android","udid":"emulator-5554","avd":"Pixel_4"},"capabilities":{"firstMatch":[{"appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","appium:avd":"Pixel_4","appium:avdLaunchTimeout":180000,"platformName":"android","appium:udid":"emulator-5554"}]}}
+2022-10-11 05:48:59:036 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","avdLaunchTimeout":180000,"automationName":"UiAutomator2","platformName":"Android","udid":"emulator-5554","avd":"Pixel_4"},null,{"firstMatch":[{"appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","appium:avd":"Pixel_4","appium:avdLaunchTimeout":180000,"platformName":"android","appium:udid":"emulator-5554"}]}]
+2022-10-11 05:48:59:037 [BaseDriver] Event 'newSessionRequested' logged at 1665467339036 (10:48:59 GMT+0500 (Pakistan Standard Time))
+2022-10-11 05:48:59:245 [Appium] Appium v1.22.0 creating new AndroidUiautomator2Driver (v1.69.0) session
+2022-10-11 05:48:59:248 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2022-10-11 05:48:59:248 [BaseDriver] Creating session with W3C capabilities: {
+2022-10-11 05:48:59:248 [BaseDriver]   "alwaysMatch": {
+2022-10-11 05:48:59:249 [BaseDriver]     "platformName": "android",
+2022-10-11 05:48:59:249 [BaseDriver]     "appium:appActivity": "com.swaglabsmobileapp.SplashActivity",
+2022-10-11 05:48:59:249 [BaseDriver]     "appium:appPackage": "com.swaglabsmobileapp",
+2022-10-11 05:48:59:249 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2022-10-11 05:48:59:249 [BaseDriver]     "appium:avd": "Pixel_4",
+2022-10-11 05:48:59:250 [BaseDriver]     "appium:avdLaunchTimeout": 180000,
+2022-10-11 05:48:59:250 [BaseDriver]     "appium:udid": "emulator-5554"
+2022-10-11 05:48:59:250 [BaseDriver]   },
+2022-10-11 05:48:59:250 [BaseDriver]   "firstMatch": [
+2022-10-11 05:48:59:250 [BaseDriver]     {}
+2022-10-11 05:48:59:250 [BaseDriver]   ]
+2022-10-11 05:48:59:250 [BaseDriver] }
+2022-10-11 05:48:59:255 [BaseDriver] Session created with session id: b6648e30-6d43-4e32-ba7b-39805bbfe84f
+2022-10-11 05:48:59:256 [UiAutomator2] Starting 'com.swaglabsmobileapp' directly on the device
+2022-10-11 05:48:59:257 [HTTP] Request idempotency key: 480af523-2cd3-4af4-8efd-eb79fb562db1
+2022-10-11 05:48:59:258 [HTTP] --> POST /wd/hub/session
+2022-10-11 05:48:59:258 [HTTP] {"desiredCapabilities":{"appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","platformName":"Android","udid":"98271FFAZ0001U"},"capabilities":{"firstMatch":[{"appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","platformName":"android","appium:udid":"98271FFAZ0001U"}]}}
+2022-10-11 05:48:59:259 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","platformName":"Android","udid":"98271FFAZ0001U"},null,{"firstMatch":[{"appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","platformName":"android","appium:udid":"98271FFAZ0001U"}]}]
+2022-10-11 05:48:59:259 [BaseDriver] Event 'newSessionRequested' logged at 1665467339259 (10:48:59 GMT+0500 (Pakistan Standard Time))
+2022-10-11 05:48:59:260 [Appium] Appium v1.22.0 creating new AndroidUiautomator2Driver (v1.69.0) session
+2022-10-11 05:48:59:260 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2022-10-11 05:48:59:261 [BaseDriver] Creating session with W3C capabilities: {
+2022-10-11 05:48:59:261 [BaseDriver]   "alwaysMatch": {
+2022-10-11 05:48:59:261 [BaseDriver]     "platformName": "android",
+2022-10-11 05:48:59:261 [BaseDriver]     "appium:appActivity": "com.swaglabsmobileapp.SplashActivity",
+2022-10-11 05:48:59:261 [BaseDriver]     "appium:appPackage": "com.swaglabsmobileapp",
+2022-10-11 05:48:59:261 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2022-10-11 05:48:59:261 [BaseDriver]     "appium:udid": "98271FFAZ0001U"
+2022-10-11 05:48:59:261 [BaseDriver]   },
+2022-10-11 05:48:59:261 [BaseDriver]   "firstMatch": [
+2022-10-11 05:48:59:262 [BaseDriver]     {}
+2022-10-11 05:48:59:262 [BaseDriver]   ]
+2022-10-11 05:48:59:262 [BaseDriver] }
+2022-10-11 05:48:59:270 [BaseDriver] Session created with session id: 2fa809aa-a8fe-4520-a9f6-e9477f33fe68
+2022-10-11 05:48:59:270 [UiAutomator2] Starting 'com.swaglabsmobileapp' directly on the device
+2022-10-11 05:48:59:275 [ADB] Found 1 'build-tools' folders under 'C:\Users\eBricks\AppData\Local\Android\Sdk' (newest first):
+2022-10-11 05:48:59:275 [ADB]     C:/Users/eBricks/AppData/Local/Android/Sdk/build-tools/31.0.0
+2022-10-11 05:48:59:276 [ADB] Using 'adb.exe' from 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2022-10-11 05:48:59:276 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2022-10-11 05:48:59:284 [ADB] Using 'adb.exe' from 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2022-10-11 05:48:59:284 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2022-10-11 05:48:59:303 [ADB] Trying to find 'Pixel_4' emulator
+2022-10-11 05:48:59:303 [ADB] Getting connected emulators
+2022-10-11 05:48:59:304 [ADB] Getting connected devices
+2022-10-11 05:48:59:307 [AndroidDriver] Retrieving device list
+2022-10-11 05:48:59:307 [ADB] Trying to find a connected android device
+2022-10-11 05:48:59:308 [ADB] Getting connected devices
+2022-10-11 05:48:59:324 [ADB] Connected devices: [{"udid":"98271FFAZ0001U","state":"device"},{"udid":"emulator-5554","state":"device"}]
+2022-10-11 05:48:59:325 [ADB] 1 emulator connected
+2022-10-11 05:48:59:326 [ADB] Overriding C:\Users\eBricks\.emulator_console_auth_token with an empty string to avoid telnet authentication for emulator commands
+2022-10-11 05:48:59:329 [ADB] Connected devices: [{"udid":"98271FFAZ0001U","state":"device"},{"udid":"emulator-5554","state":"device"}]
+2022-10-11 05:48:59:329 [AndroidDriver] Using device: 98271FFAZ0001U
+2022-10-11 05:48:59:331 [ADB] Executing Emulator console command: avd name
+2022-10-11 05:48:59:331 [ADB] Found emulator 'Pixel_4' on port 5554
+2022-10-11 05:48:59:332 [ADB] Setting device id to emulator-5554
+2022-10-11 05:48:59:332 [AndroidDriver] Not launching AVD because it is already running.
+2022-10-11 05:48:59:332 [AndroidDriver] Using device: emulator-5554
+2022-10-11 05:48:59:333 [ADB] Using 'adb.exe' from 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2022-10-11 05:48:59:334 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2022-10-11 05:48:59:337 [ADB] Using 'adb.exe' from 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2022-10-11 05:48:59:337 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2022-10-11 05:48:59:354 [ADB] Setting device id to 98271FFAZ0001U
+2022-10-11 05:48:59:355 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 98271FFAZ0001U shell getprop ro.build.version.sdk'
+2022-10-11 05:48:59:359 [ADB] Setting device id to emulator-5554
+2022-10-11 05:48:59:360 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+2022-10-11 05:48:59:402 [ADB] Current device property 'ro.build.version.sdk': 33
+2022-10-11 05:48:59:403 [ADB] Getting device platform version
+2022-10-11 05:48:59:403 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 98271FFAZ0001U shell getprop ro.build.version.release'
+2022-10-11 05:48:59:424 [ADB] Current device property 'ro.build.version.sdk': 30
+2022-10-11 05:48:59:424 [ADB] Getting device platform version
+2022-10-11 05:48:59:424 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+2022-10-11 05:48:59:453 [ADB] Current device property 'ro.build.version.release': 13
+2022-10-11 05:48:59:454 [ADB] Device API level: 33
+2022-10-11 05:48:59:454 [UiAutomator2] Relaxing hidden api policy
+2022-10-11 05:48:59:454 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 98271FFAZ0001U shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2022-10-11 05:48:59:469 [ADB] Current device property 'ro.build.version.release': 11
+2022-10-11 05:48:59:469 [ADB] Device API level: 30
+2022-10-11 05:48:59:469 [UiAutomator2] Relaxing hidden api policy
+2022-10-11 05:48:59:470 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2022-10-11 05:48:59:530 [AndroidDriver] No app sent in, not parsing package/activity
+2022-10-11 05:48:59:531 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 wait-for-device'
+2022-10-11 05:48:59:547 [AndroidDriver] No app sent in, not parsing package/activity
+2022-10-11 05:48:59:547 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 98271FFAZ0001U wait-for-device'
+2022-10-11 05:48:59:551 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell echo ping'
+2022-10-11 05:48:59:571 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 98271FFAZ0001U shell echo ping'
+2022-10-11 05:48:59:596 [AndroidDriver] Pushing settings apk to device...
+2022-10-11 05:48:59:596 [ADB] Getting install status for io.appium.settings
+2022-10-11 05:48:59:597 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2022-10-11 05:48:59:628 [AndroidDriver] Pushing settings apk to device...
+2022-10-11 05:48:59:628 [ADB] Getting install status for io.appium.settings
+2022-10-11 05:48:59:628 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 98271FFAZ0001U shell dumpsys package io.appium.settings'
+2022-10-11 05:48:59:690 [ADB] 'io.appium.settings' is installed
+2022-10-11 05:48:59:690 [ADB] Getting package info for 'io.appium.settings'
+2022-10-11 05:48:59:690 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 98271FFAZ0001U shell dumpsys package io.appium.settings'
+2022-10-11 05:48:59:728 [ADB] 'io.appium.settings' is installed
+2022-10-11 05:48:59:729 [ADB] Getting package info for 'io.appium.settings'
+2022-10-11 05:48:59:729 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2022-10-11 05:48:59:767 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.4.0' >= '3.4.0')
+2022-10-11 05:48:59:768 [ADB] There is no need to install/upgrade 'C:\Users\eBricks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2022-10-11 05:48:59:769 [ADB] Getting IDs of all 'io.appium.settings' processes
+2022-10-11 05:48:59:769 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 98271FFAZ0001U shell 'pgrep --help; echo $?''
+2022-10-11 05:48:59:817 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.4.0' >= '3.4.0')
+2022-10-11 05:48:59:817 [ADB] There is no need to install/upgrade 'C:\Users\eBricks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2022-10-11 05:48:59:818 [ADB] Getting IDs of all 'io.appium.settings' processes
+2022-10-11 05:48:59:818 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+2022-10-11 05:48:59:831 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 98271FFAZ0001U shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2022-10-11 05:48:59:876 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2022-10-11 05:48:59:898 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2022-10-11 05:48:59:899 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 98271FFAZ0001U shell appops set io.appium.settings android:mock_location allow'
+2022-10-11 05:48:59:951 [Logcat] Starting logs capture with command: C:\\Users\\eBricks\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 98271FFAZ0001U logcat -v threadtime
+2022-10-11 05:48:59:957 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2022-10-11 05:48:59:958 [Logcat] Starting logs capture with command: C:\\Users\\eBricks\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 logcat -v threadtime
+2022-10-11 05:48:59:999 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 8200
+2022-10-11 05:49:00:002 [ADB] Forwarding system: 8200 to device: 6790
+2022-10-11 05:49:00:002 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward tcp:8200 tcp:6790'
+2022-10-11 05:49:00:063 [ADB] Getting install status for io.appium.uiautomator2.server
+2022-10-11 05:49:00:063 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2022-10-11 05:49:00:103 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 8201
+2022-10-11 05:49:00:104 [ADB] Forwarding system: 8201 to device: 6790
+2022-10-11 05:49:00:104 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 98271FFAZ0001U forward tcp:8201 tcp:6790'
+2022-10-11 05:49:00:132 [ADB] Getting install status for io.appium.uiautomator2.server
+2022-10-11 05:49:00:132 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 98271FFAZ0001U shell dumpsys package io.appium.uiautomator2.server'
+2022-10-11 05:49:00:146 [ADB] 'io.appium.uiautomator2.server' is installed
+2022-10-11 05:49:00:146 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2022-10-11 05:49:00:146 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2022-10-11 05:49:00:192 [ADB] 'io.appium.uiautomator2.server' is installed
+2022-10-11 05:49:00:193 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2022-10-11 05:49:00:193 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 98271FFAZ0001U shell dumpsys package io.appium.uiautomator2.server'
+2022-10-11 05:49:00:219 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.24.0' >= '4.24.0')
+2022-10-11 05:49:00:219 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2022-10-11 05:49:00:219 [ADB] Checking app cert for C:\Users\eBricks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.24.0.apk
+2022-10-11 05:49:00:235 [ADB] Using 'apksigner.jar' from 'C:\Users\eBricks\AppData\Local\Android\Sdk\build-tools\31.0.0\lib\apksigner.jar'
+2022-10-11 05:49:00:236 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk-17.0.3.1\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\eBricks\\AppData\\Local\\Android\\Sdk\\build-tools\\31.0.0\\lib\\apksigner.jar verify --print-certs 'C:\\Users\\eBricks\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.24.0.apk'
+2022-10-11 05:49:00:249 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.24.0' >= '4.24.0')
+2022-10-11 05:49:00:249 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2022-10-11 05:49:00:249 [ADB] Checking app cert for C:\Users\eBricks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.24.0.apk
+2022-10-11 05:49:00:302 [ADB] Using 'apksigner.jar' from 'C:\Users\eBricks\AppData\Local\Android\Sdk\build-tools\31.0.0\lib\apksigner.jar'
+2022-10-11 05:49:00:302 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk-17.0.3.1\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\eBricks\\AppData\\Local\\Android\\Sdk\\build-tools\\31.0.0\\lib\\apksigner.jar verify --print-certs 'C:\\Users\\eBricks\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.24.0.apk'
+2022-10-11 05:49:00:755 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2022-10-11 05:49:00:755 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2022-10-11 05:49:00:755 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2022-10-11 05:49:00:756 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2022-10-11 05:49:00:756 [ADB] 
+2022-10-11 05:49:00:756 [ADB] sha256 hash did match for 'appium-uiautomator2-server-v4.24.0.apk'
+2022-10-11 05:49:00:756 [ADB] 'C:\Users\eBricks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.24.0.apk' is signed with the default certificate
+2022-10-11 05:49:00:756 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2022-10-11 05:49:00:757 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server.test'
+2022-10-11 05:49:00:793 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2022-10-11 05:49:00:793 [ADB] Checking app cert for C:\Users\eBricks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2022-10-11 05:49:00:796 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk-17.0.3.1\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\eBricks\\AppData\\Local\\Android\\Sdk\\build-tools\\31.0.0\\lib\\apksigner.jar verify --print-certs 'C:\\Users\\eBricks\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk'
+2022-10-11 05:49:00:803 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2022-10-11 05:49:00:803 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2022-10-11 05:49:00:803 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2022-10-11 05:49:00:803 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2022-10-11 05:49:00:803 [ADB] 
+2022-10-11 05:49:00:803 [ADB] sha256 hash did match for 'appium-uiautomator2-server-v4.24.0.apk'
+2022-10-11 05:49:00:804 [ADB] 'C:\Users\eBricks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.24.0.apk' is signed with the default certificate
+2022-10-11 05:49:00:804 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2022-10-11 05:49:00:804 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 98271FFAZ0001U shell dumpsys package io.appium.uiautomator2.server.test'
+2022-10-11 05:49:00:871 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2022-10-11 05:49:00:871 [ADB] Checking app cert for C:\Users\eBricks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2022-10-11 05:49:00:874 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk-17.0.3.1\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\eBricks\\AppData\\Local\\Android\\Sdk\\build-tools\\31.0.0\\lib\\apksigner.jar verify --print-certs 'C:\\Users\\eBricks\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk'
+2022-10-11 05:49:01:139 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2022-10-11 05:49:01:139 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2022-10-11 05:49:01:139 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2022-10-11 05:49:01:140 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2022-10-11 05:49:01:140 [ADB] 
+2022-10-11 05:49:01:140 [ADB] sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+2022-10-11 05:49:01:140 [ADB] 'C:\Users\eBricks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+2022-10-11 05:49:01:140 [UiAutomator2] Server packages are not going to be (re)installed
+2022-10-11 05:49:01:142 [UiAutomator2] Waiting up to 30000ms for services to be available
+2022-10-11 05:49:01:143 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm list instrumentation'
+2022-10-11 05:49:01:177 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2022-10-11 05:49:01:179 [ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+2022-10-11 05:49:01:179 [ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+2022-10-11 05:49:01:179 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+2022-10-11 05:49:01:201 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2022-10-11 05:49:01:201 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2022-10-11 05:49:01:201 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2022-10-11 05:49:01:201 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2022-10-11 05:49:01:201 [ADB] 
+2022-10-11 05:49:01:201 [ADB] sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+2022-10-11 05:49:01:201 [ADB] 'C:\Users\eBricks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+2022-10-11 05:49:01:201 [UiAutomator2] Server packages are not going to be (re)installed
+2022-10-11 05:49:01:203 [UiAutomator2] Waiting up to 30000ms for services to be available
+2022-10-11 05:49:01:203 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 98271FFAZ0001U shell pm list instrumentation'
+2022-10-11 05:49:01:242 [UiAutomator2] No app capability. Assuming it is already on the device
+2022-10-11 05:49:01:242 [ADB] Getting install status for com.swaglabsmobileapp
+2022-10-11 05:49:01:242 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.swaglabsmobileapp'
+2022-10-11 05:49:01:248 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2022-10-11 05:49:01:252 [ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+2022-10-11 05:49:01:253 [ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+2022-10-11 05:49:01:253 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 98271FFAZ0001U shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+2022-10-11 05:49:01:288 [ADB] 'com.swaglabsmobileapp' is installed
+2022-10-11 05:49:01:288 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.swaglabsmobileapp'
+2022-10-11 05:49:01:337 [UiAutomator2] No app capability. Assuming it is already on the device
+2022-10-11 05:49:01:337 [ADB] Getting install status for com.swaglabsmobileapp
+2022-10-11 05:49:01:337 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 98271FFAZ0001U shell dumpsys package com.swaglabsmobileapp'
+2022-10-11 05:49:01:353 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm clear com.swaglabsmobileapp'
+2022-10-11 05:49:01:383 [ADB] 'com.swaglabsmobileapp' is installed
+2022-10-11 05:49:01:383 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 98271FFAZ0001U shell am force-stop com.swaglabsmobileapp'
+2022-10-11 05:49:01:429 [AndroidDriver] Performed fast reset on the installed 'com.swaglabsmobileapp' application (stop and clear)
+2022-10-11 05:49:01:429 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2022-10-11 05:49:01:441 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 98271FFAZ0001U shell pm clear com.swaglabsmobileapp'
+2022-10-11 05:49:01:514 [AndroidDriver] Performed fast reset on the installed 'com.swaglabsmobileapp' application (stop and clear)
+2022-10-11 05:49:01:514 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2022-10-11 05:49:01:529 [UiAutomator2] No obsolete sessions have been detected
+2022-10-11 05:49:01:530 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+2022-10-11 05:49:01:553 [UiAutomator2] No obsolete sessions have been detected
+2022-10-11 05:49:01:553 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 98271FFAZ0001U shell am force-stop io.appium.uiautomator2.server.test'
+2022-10-11 05:49:01:583 [UiAutomator2] Starting UIAutomator2 server 4.24.0
+2022-10-11 05:49:01:584 [UiAutomator2] Using UIAutomator2 server from 'C:\Users\eBricks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.24.0.apk' and test from 'C:\Users\eBricks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2022-10-11 05:49:01:584 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2022-10-11 05:49:01:584 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2022-10-11 05:49:01:593 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-10-11 05:49:01:594 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2022-10-11 05:49:01:597 [UiAutomator2] Starting UIAutomator2 server 4.24.0
+2022-10-11 05:49:01:597 [UiAutomator2] Using UIAutomator2 server from 'C:\Users\eBricks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.24.0.apk' and test from 'C:\Users\eBricks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2022-10-11 05:49:01:597 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2022-10-11 05:49:01:597 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","98271FFAZ0001U","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2022-10-11 05:49:01:606 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-10-11 05:49:01:607 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8201/wd/hub/status] with no body
+2022-10-11 05:49:01:610 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2022-10-11 05:49:01:610 [UiAutomator2] The initialization of the instrumentation process took 26ms
+2022-10-11 05:49:01:610 [WD Proxy] Matched '/session' to command name 'createSession'
+2022-10-11 05:49:01:611 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8200/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","avd":"Pixel_4","avdLaunchTimeout":180000,"udid":"emulator-5554"},"platformName":"android","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","avd":"Pixel_4","avdLaunchTimeout":180000,"udid":"emulator-5554","deviceName":"emulator-5554","deviceUDID":"emulator-5554"}],"alwaysMatch":{}}}
+2022-10-11 05:49:01:616 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2022-10-11 05:49:01:616 [UiAutomator2] The initialization of the instrumentation process took 19ms
+2022-10-11 05:49:01:617 [WD Proxy] Matched '/session' to command name 'createSession'
+2022-10-11 05:49:01:617 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8201/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","udid":"98271FFAZ0001U"},"platformName":"android","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","udid":"98271FFAZ0001U","deviceName":"98271FFAZ0001U","deviceUDID":"98271FFAZ0001U"}],"alwaysMatch":{}}}
+2022-10-11 05:49:01:631 [WD Proxy] Got response with status 200: {"sessionId":"54944c38-9e09-425c-a5bc-b1648a84d0c3","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","udid":"98271FFAZ0001U"},"platformName":"android","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","udid":"98271FFAZ0001U","deviceName":"98271FFAZ0001U","deviceUDID":"98271FFAZ0001U"}],"alwaysMatch":{}},"sessionId":"54944c38-9e09-425c-a5bc-b1648a84d0c3"}}
+2022-10-11 05:49:01:631 [WD Proxy] Determined the downstream protocol as 'W3C'
+2022-10-11 05:49:01:650 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8201/wd/hub/session/54944c38-9e09-425c-a5bc-b1648a84d0c3/appium/device/info] with no body
+2022-10-11 05:49:01:651 [WD Proxy] Got response with status 200: {"sessionId":"8a2e72e6-274a-43d6-b3f6-43b59c17700a","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","avd":"Pixel_4","avdLaunchTimeout":180000,"udid":"emulator-5554"},"platformName":"android","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","avd":"Pixel_4","avdLaunchTimeout":180000,"udid":"emulator-5554","deviceName":"emulator-5554","deviceUDID":"emulator-5554"}],"alwaysMatch":{}},"sessionId":"8a2e72e6-274a-43d6-b3f6-43b59c17700a"}}
+2022-10-11 05:49:01:651 [WD Proxy] Determined the downstream protocol as 'W3C'
+2022-10-11 05:49:01:652 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/wd/hub/session/8a2e72e6-274a-43d6-b3f6-43b59c17700a/appium/device/info] with no body
+2022-10-11 05:49:01:669 [WD Proxy] Got response with status 200: {"sessionId":"54944c38-9e09-425c-a5bc-b1648a84d0c3","value":{"androidId":"20d49e558338131b","apiVersion":"33","bluetooth":{"state":"ON"},"brand":"google","carrierName":"","displayDensity":440,"locale":"en_US","manufacturer":"Google","model":"Pixel 4","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30372,"linkUpstreamBandwidthKbps":12000,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-46,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":-1,"subtypeName":"","type":1,"typeName":"WIFI"}],"platformVersion":"13","realDisplaySize":"1080x2280","timeZone":"Asia/Karachi"}}
+2022-10-11 05:49:01:669 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 98271FFAZ0001U shell dumpsys window'
+2022-10-11 05:49:01:681 [WD Proxy] Got response with status 200: {"sessionId":"8a2e72e6-274a-43d6-b3f6-43b59c17700a","value":{"androidId":"a1b8b9f2f49d0fa8","apiVersion":"30","bluetooth":{"state":"ON"},"brand":"google","carrierName":"Android","displayDensity":440,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone_x86","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":15000,"networkCapabilities":"NET_CAPABILITY_MMS,NET_CAPABILITY_SUPL,NET_CAPABILITY_DUN,NET_CAPABILITY_FOTA,NET_CAPABILITY_IMS,NET_CAPABILITY_CBS,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"epc.tmobile.com","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":13,"subtypeName":"LTE","type":0,"typeName":"MOBILE"},{"capabilities":{...
+2022-10-11 05:49:01:681 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window'
+2022-10-11 05:49:01:726 [AndroidDriver] Screen already unlocked, doing nothing
+2022-10-11 05:49:01:726 [UiAutomator2] Starting 'com.swaglabsmobileapp/com.swaglabsmobileapp.SplashActivity and waiting for 'com.swaglabsmobileapp/com.swaglabsmobileapp.SplashActivity'
+2022-10-11 05:49:01:727 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 98271FFAZ0001U shell am start -W -n com.swaglabsmobileapp/com.swaglabsmobileapp.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2022-10-11 05:49:01:745 [AndroidDriver] Screen already unlocked, doing nothing
+2022-10-11 05:49:01:745 [UiAutomator2] Starting 'com.swaglabsmobileapp/com.swaglabsmobileapp.SplashActivity and waiting for 'com.swaglabsmobileapp/com.swaglabsmobileapp.SplashActivity'
+2022-10-11 05:49:01:746 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start -W -n com.swaglabsmobileapp/com.swaglabsmobileapp.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2022-10-11 05:49:02:133 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2022-10-11 05:49:02:399 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8201/wd/hub/session/54944c38-9e09-425c-a5bc-b1648a84d0c3/appium/device/pixel_ratio] with no body
+2022-10-11 05:49:02:405 [WD Proxy] socket hang up
+2022-10-11 05:49:02:408 [UiAutomator2] Deleting UiAutomator2 session
+2022-10-11 05:49:02:410 [UiAutomator2] Deleting UiAutomator2 server session
+2022-10-11 05:49:02:411 [WD Proxy] Matched '/' to command name 'deleteSession'
+2022-10-11 05:49:02:412 [WD Proxy] Proxying [DELETE /] to [DELETE http://127.0.0.1:8201/wd/hub/session/54944c38-9e09-425c-a5bc-b1648a84d0c3] with no body
+2022-10-11 05:49:02:420 [WD Proxy] socket hang up
+2022-10-11 05:49:02:422 [UiAutomator2] Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+2022-10-11 05:49:02:423 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 98271FFAZ0001U shell am force-stop com.swaglabsmobileapp'
+2022-10-11 05:49:02:569 [Logcat] Stopping logcat capture
+2022-10-11 05:49:02:579 [ADB] Removing forwarded port socket connection: 8201 
+2022-10-11 05:49:02:580 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 98271FFAZ0001U forward --remove tcp:8201'
+2022-10-11 05:49:02:635 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2022-10-11 05:49:02:635 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 98271FFAZ0001U shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2022-10-11 05:49:02:771 [BaseDriver] Event 'newSessionStarted' logged at 1665467342770 (10:49:02 GMT+0500 (Pakistan Standard Time))
+2022-10-11 05:49:02:910 [W3C] Encountered internal error running command: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+2022-10-11 05:49:02:910 [W3C]     at UIA2Proxy.command (C:\Users\eBricks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\jsonwp-proxy\proxy.js:274:13)
+2022-10-11 05:49:02:910 [W3C]     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-10-11 05:49:02:910 [W3C]     at AndroidUiautomator2Driver.commands.getDevicePixelRatio (C:\Users\eBricks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\commands\viewport.js:14:10)
+2022-10-11 05:49:02:910 [W3C]     at AndroidUiautomator2Driver.fillDeviceDetails (C:\Users\eBricks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:244:28)
+2022-10-11 05:49:02:910 [W3C]     at AndroidUiautomator2Driver.createSession (C:\Users\eBricks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:230:7)
+2022-10-11 05:49:02:910 [W3C]     at AppiumDriver.createSession (C:\Users\eBricks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\lib\appium.js:387:35)
+2022-10-11 05:49:02:912 [HTTP] <-- POST /wd/hub/session 500 3653 ms - 1515
+2022-10-11 05:49:02:912 [HTTP] 
+2022-10-11 05:49:02:913 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2022-10-11 05:49:03:610 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/wd/hub/session/8a2e72e6-274a-43d6-b3f6-43b59c17700a/appium/device/pixel_ratio] with no body
+2022-10-11 05:49:03:624 [WD Proxy] socket hang up
+2022-10-11 05:49:03:625 [UiAutomator2] Deleting UiAutomator2 session
+2022-10-11 05:49:03:625 [UiAutomator2] Deleting UiAutomator2 server session
+2022-10-11 05:49:03:626 [WD Proxy] Matched '/' to command name 'deleteSession'
+2022-10-11 05:49:03:626 [WD Proxy] Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/wd/hub/session/8a2e72e6-274a-43d6-b3f6-43b59c17700a] with no body
+2022-10-11 05:49:03:661 [WD Proxy] socket hang up
+2022-10-11 05:49:03:663 [UiAutomator2] Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+2022-10-11 05:49:03:664 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.swaglabsmobileapp'
+2022-10-11 05:49:04:163 [Logcat] Stopping logcat capture
+2022-10-11 05:49:04:171 [ADB] Removing forwarded port socket connection: 8200 
+2022-10-11 05:49:04:171 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward --remove tcp:8200'
+2022-10-11 05:49:04:221 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2022-10-11 05:49:04:221 [ADB] Running 'C:\Users\eBricks\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2022-10-11 05:49:04:829 [BaseDriver] Event 'newSessionStarted' logged at 1665467344829 (10:49:04 GMT+0500 (Pakistan Standard Time))
+2022-10-11 05:49:04:831 [W3C] Encountered internal error running command: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+2022-10-11 05:49:04:831 [W3C]     at UIA2Proxy.command (C:\Users\eBricks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\jsonwp-proxy\proxy.js:274:13)
+2022-10-11 05:49:04:831 [W3C]     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-10-11 05:49:04:831 [W3C]     at AndroidUiautomator2Driver.commands.getDevicePixelRatio (C:\Users\eBricks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\commands\viewport.js:14:10)
+2022-10-11 05:49:04:831 [W3C]     at AndroidUiautomator2Driver.fillDeviceDetails (C:\Users\eBricks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:244:28)
+2022-10-11 05:49:04:831 [W3C]     at AndroidUiautomator2Driver.createSession (C:\Users\eBricks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:230:7)
+2022-10-11 05:49:04:832 [W3C]     at AppiumDriver.createSession (C:\Users\eBricks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\lib\appium.js:387:35)
+2022-10-11 05:49:04:834 [HTTP] <-- POST /wd/hub/session 500 5797 ms - 1515
+2022-10-11 05:49:04:834 [HTTP] 
+2022-10-11 05:49:04:956 [HTTP] --> GET /wd/hub/status

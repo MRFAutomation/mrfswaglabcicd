@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SwagLabParallel" parallel="tests">
+	<listeners>
+		<listener class-name="com.qa.listeners.TestListeners" />
+	</listeners>
+	<test name="Pixel4_Emulator">
+		<!-- <listeners> <listener class-name="com.qa.listeners.TestListeners" 
+			/> </listeners> -->
+		<parameter name="deviceType" value="emulator" />
+		<parameter name="udid" value="emulator-5554" />
+		<parameter name="deviceName" value="Pixel4_Emulator" />
+		<parameter name="emulatorFlag" value="true" />
+		<classes>
+			<class name="com.qa.test.LoginTest">
+				<methods>
+					<include name="incorrectUser" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
+
+

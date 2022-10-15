@@ -1,6 +1,10 @@
 package com.qa.utils;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.InputStream;
+import java.io.PrintWriter;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -15,6 +19,8 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+
+import com.qa.base.BaseTest;
 
 public class TestUtils {
 
@@ -48,19 +54,45 @@ public class TestUtils {
 		}
 		return stringMap;
 	}
-	
+
 //	Get DateTime
 	public String dateTime() {
-		System.out.println("Date_Time_Mrthod_Called");
+		System.out.println("Date_Time_Method_Called");
 		DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss");
 		Date date = new Date();
 		return dateFormat.format(date);
 	}
-	
-	// Get Logger Object
-		public Logger log() {
-			// Logic to get the name of current class
-			// Thread.currentThread().getStackTrace()[2].getClassName()
-			return LogManager.getLogger(Thread.currentThread().getStackTrace()[2].getClassName());
+
+	// To publish logs separately for each device
+	public void log(String txt) {
+		String msg = Thread.currentThread().getId() + ":" + "Android" + ":" + ":"
+				+ Thread.currentThread().getStackTrace()[2].getClassName() + ":" + txt;
+
+		System.out.println(msg);
+
+		String strFile = "logs" + File.separator + "Android" + "_" + File.separator + dateTime();
+
+		File logFile = new File(strFile);
+
+		if (!logFile.exists()) {
+			logFile.mkdirs();
 		}
+
+		FileWriter fileWriter = null;
+		try {
+			fileWriter = new FileWriter(logFile + File.separator + "log.txt", true);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		PrintWriter printWriter = new PrintWriter(fileWriter);
+		printWriter.println(msg);
+		printWriter.close();
+	}
+
+	// Get Logger Object
+	public Logger log() {
+		// Logic to get the name of current class
+		return LogManager.getLogger(Thread.currentThread().getStackTrace()[2].getClassName());
+	}
 }

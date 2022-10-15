@@ -17,14 +17,16 @@ import com.qa.pages.ProductsPage;
 public class LoginTest extends BaseTest {
 	LoginPage loginPage;
 	ProductsPage productsPage;
-	InputStream iStream;
 	JSONObject loginUsers;
 
 	@BeforeClass
 	public void beforeClass() throws IOException {
+		InputStream iStream = null;
 		loginPage = new LoginPage();
 		try {
-
+			iStream = getClass().getClassLoader().getResourceAsStream("loginUsers.json");
+			JSONTokener tokener = new JSONTokener(iStream);
+			loginUsers = new JSONObject(tokener);
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
@@ -32,9 +34,6 @@ public class LoginTest extends BaseTest {
 				iStream.close();
 			}
 		}
-		iStream = getClass().getClassLoader().getResourceAsStream("loginUsers.json");
-		JSONTokener tokener = new JSONTokener(iStream);
-		loginUsers = new JSONObject(tokener);
 	}
 
 	@Test()
@@ -44,7 +43,8 @@ public class LoginTest extends BaseTest {
 		loginPage.pressLoginButton();
 
 		String actualTxt = loginPage.getTxt();
-		String expectedTxt = strings.get("login_page_invalid_username_or_password_error");
+		String expectedTxt = getStrings().get("login_page_invalid_username_or_password_error");
+
 		Assert.assertEquals(actualTxt, expectedTxt);
 	}
 
@@ -55,7 +55,7 @@ public class LoginTest extends BaseTest {
 		loginPage.pressLoginButton();
 
 		String actualTxt = loginPage.getTxt();
-		String expectedTxt = strings.get("login_page_invalid_username_or_password_error");
+		String expectedTxt = getStrings().get("login_page_invalid_username_or_password_error");
 		Assert.assertEquals(actualTxt, expectedTxt);
 	}
 
@@ -66,7 +66,7 @@ public class LoginTest extends BaseTest {
 		productsPage = loginPage.pressLoginButton();
 
 		String actualTxt = productsPage.getProductsPageTitleTxt();
-		String expectedTxt = strings.get("products_page_expected_result");
+		String expectedTxt = getStrings().get("products_page_expected_result");
 		Assert.assertEquals(actualTxt, expectedTxt);
 	}
 

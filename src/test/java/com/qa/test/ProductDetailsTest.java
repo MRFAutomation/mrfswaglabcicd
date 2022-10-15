@@ -21,7 +21,6 @@ import com.qa.pages.SettingsPage;
 public class ProductDetailsTest extends BaseTest {
 	LoginPage loginPage;
 	ProductsPage productsPage;
-	InputStream iStream;
 	JSONObject loginUsers;
 	ProductDetailsPage productDetailsPage;
 	MenuPage menuPage;
@@ -29,6 +28,7 @@ public class ProductDetailsTest extends BaseTest {
 
 	@BeforeClass
 	public void beforeClass() throws IOException {
+		InputStream iStream = null;
 		loginPage = new LoginPage();
 		try {
 			iStream = getClass().getClassLoader().getResourceAsStream("loginUsers.json");
@@ -53,11 +53,11 @@ public class ProductDetailsTest extends BaseTest {
 
 		String slbTitle = productsPage.getSLBTitle();
 		System.out.println("SLB title: " + slbTitle);
-		sa.assertEquals(slbTitle, strings.get("product_slb_title"));
+		sa.assertEquals(slbTitle, getStrings().get("product_slb_title"));
 
 		String slbPrice = productsPage.getSLBPrice();
 		System.out.println("SLB price: " + slbPrice);
-		sa.assertEquals(slbPrice, strings.get("product_slb_price"));
+		sa.assertEquals(slbPrice, getStrings().get("product_slb_price"));
 
 		sa.assertAll();
 
@@ -75,16 +75,16 @@ public class ProductDetailsTest extends BaseTest {
 
 		String slbTitle = productDetailsPage.getSLBTitleProdDetails();
 		System.out.println("SLB title: " + slbTitle);
-		sa.assertEquals(slbTitle, strings.get("product_details_slb_title"));
+		sa.assertEquals(slbTitle, getStrings().get("product_details_slb_title"));
 
 		String slbDetails = productDetailsPage.getProdDetailsSlbDetails();
 		System.out.println("SLB Details: " + slbDetails);
-		sa.assertEquals(slbDetails, strings.get("product_details_slb_details"));
+		sa.assertEquals(slbDetails, getStrings().get("product_details_slb_details"));
 
 		scrollToElement("Methode scrollToElement called from ProductDetailsTest_validateProdTitleDetailsPrice");
 		String slbPDPrice = productDetailsPage.getProdDetailsSlbPrice();
 		System.out.println("SLB Price: " + slbPDPrice);
-		sa.assertEquals(slbPDPrice, strings.get("product_details_slb_price"));
+		sa.assertEquals(slbPDPrice, getStrings().get("product_details_slb_price"));
 
 		sa.assertAll();
 
@@ -102,26 +102,26 @@ public class ProductDetailsTest extends BaseTest {
 
 		String slbPDTitle = productDetailsPage.getSLBTitleProdDetails();
 		System.out.println("SLB title: " + slbPDTitle);
-		sa.assertEquals(slbPDTitle, strings.get("product_details_slb_title"));
+		sa.assertEquals(slbPDTitle, getStrings().get("product_details_slb_title"));
 
 		String slbDetails = productDetailsPage.getProdDetailsSlbDetails();
 		System.out.println("SLB Details: " + slbDetails);
-		sa.assertEquals(slbDetails, strings.get("product_details_slb_details"));
+		sa.assertEquals(slbDetails, getStrings().get("product_details_slb_details"));
 
 		scrollToElement("Methode scrollToElement called from ProductDetailsTest_validateProdDetailsAndPrice");
 		String slbPDPrice = productDetailsPage.getProdDetailsSlbPrice();
 		System.out.println("SLB Price: " + slbPDPrice);
-		sa.assertEquals(slbPDPrice, strings.get("product_details_slb_price"));
+		sa.assertEquals(slbPDPrice, getStrings().get("product_details_slb_price"));
 
 		productsPage = productDetailsPage.pressBackToProductsBtn();
 
 		String slbPTitle = productsPage.getSLBTitle();
 		System.out.println("SLB title: " + slbPTitle);
-		sa.assertEquals(slbPTitle, strings.get("product_slb_title"));
+		sa.assertEquals(slbPTitle, getStrings().get("product_slb_title"));
 
 		String slbPrice = productsPage.getSLBPrice();
 		System.out.println("SLB price: " + slbPrice);
-		sa.assertEquals(slbPrice, strings.get("product_slb_price"));
+		sa.assertEquals(slbPrice, getStrings().get("product_slb_price"));
 
 		sa.assertAll();
 
@@ -139,11 +139,11 @@ public class ProductDetailsTest extends BaseTest {
 
 		String slbTitle = productsPage.getSLBTitle();
 		System.out.println("SLB title: " + slbTitle);
-		sa.assertEquals(slbTitle, strings.get("product_slb_title"));
+		sa.assertEquals(slbTitle, getStrings().get("product_slb_title"));
 
 		String slbPrice = productsPage.getSLBPrice();
 		System.out.println("SLB price: " + slbPrice);
-		sa.assertEquals(slbPrice, strings.get("product_slb_price"));
+		sa.assertEquals(slbPrice, getStrings().get("product_slb_price"));
 
 		sa.assertAll();
 
@@ -163,26 +163,26 @@ public class ProductDetailsTest extends BaseTest {
 
 		String slbPDTitle = productDetailsPage.getSLBTitleProdDetails();
 		System.out.println("SLB title: " + slbPDTitle);
-		sa.assertEquals(slbPDTitle, strings.get("product_details_slb_title"));
+		sa.assertEquals(slbPDTitle, getStrings().get("product_details_slb_title"));
 
 		String slbDetails = productDetailsPage.getProdDetailsSlbDetails();
 		System.out.println("SLB Details: " + slbDetails);
-		sa.assertEquals(slbDetails, strings.get("product_details_slb_details"));
+		sa.assertEquals(slbDetails, getStrings().get("product_details_slb_details"));
 
 		scrollToElement("Methode scrollToElement called from ProductDetailsTest_validateProdDetailsAndPrice");
 		String slbPDPrice = productDetailsPage.getProdDetailsSlbPrice();
 		System.out.println("SLB Price: " + slbPDPrice);
-		sa.assertEquals(slbPDPrice, strings.get("product_details_slb_price"));
+		sa.assertEquals(slbPDPrice, getStrings().get("product_details_slb_price"));
 
 		productsPage = productDetailsPage.pressBackToProductsBtn();
 
 		String slbPTitle = productsPage.getSLBTitle();
 		System.out.println("SLB title: " + slbPTitle);
-		sa.assertEquals(slbPTitle, strings.get("product_slb_title"));
+		sa.assertEquals(slbPTitle, getStrings().get("product_slb_title"));
 
 		String slbPrice = productsPage.getSLBPrice();
 		System.out.println("SLB price: " + slbPrice);
-		sa.assertEquals(slbPrice, strings.get("product_slb_price"));
+		sa.assertEquals(slbPrice, getStrings().get("product_slb_price"));
 
 		sa.assertAll();
 

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SwagLabParallel" parallel="tests">
+	<test name="Pixel4_Emulator">
+		<listeners>
+			<listener class-name="com.qa.listeners.TestListeners" />
+		</listeners>
+		<parameter name="deviceType" value="emulator" />
+		<parameter name="udid" value="emulator-5554" />
+		<parameter name="deviceName" value="Pixel4_Emulator" />
+		<parameter name="emulatorFlag" value="true" />
+		<classes>
+			<class name="com.qa.test.LoginTest">
+				<methods>
+					<include name="incorrectUser" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Pixel4_RealDevice">
+		<listeners>
+			<listener class-name="com.qa.listeners.TestListeners" />
+		</listeners>
+		<parameter name="deviceType" value="real" />
+		<parameter name="udid" value="98271FFAZ0001U" />
+		<parameter name="deviceName" value="Pixel4_Real_Device" />
+		<!-- <parameter name="emulatorFlag" value="false" /> -->
+		<classes>
+			<class name="com.qa.test.LoginTest">
+				<methods>
+					<include name="incorrectUser" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
+
+
