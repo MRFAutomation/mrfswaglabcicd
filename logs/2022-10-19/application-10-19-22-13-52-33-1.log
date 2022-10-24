@@ -1,0 +1,16 @@
+[INFO ] 2022-10-19 13:52:32.317 com.qa.base.BaseTest:199 - getAttribute - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})text: getSLBTitleProdDetails from ProductDetailsPage
+[INFO ] 2022-10-19 13:52:32.363 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})
+[INFO ] 2022-10-19 13:52:32.364 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:52:32.372 com.qa.base.BaseTest:199 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})text: getSLBTitle from ProductsPage
+[INFO ] 2022-10-19 13:52:32.418 com.qa.base.BaseTest:199 - getAttribute - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})text: getProdDetailsSlbDetails from ProductDetailsPage
+[INFO ] 2022-10-19 13:52:32.473 com.qa.base.BaseTest:205 - scrollToElement - Methode scrollToElement called from ProductDetailsTest_validateProdDetailsAndPrice
+[INFO ] 2022-10-19 13:52:32.473 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:52:32.501 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})
+[INFO ] 2022-10-19 13:52:32.502 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:52:32.625 com.qa.base.BaseTest:199 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})text: getSLBPrice from ProductsPage
+[INFO ] 2022-10-19 13:52:32.757 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Menu})
+[INFO ] 2022-10-19 13:52:32.758 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:52:32.812 com.qa.base.BaseTest:185 - click - Located by By.chained({By.AccessibilityId: test-Menu}): Press Menu Button from - MenuPage
+[INFO ] 2022-10-19 13:52:32.899 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:52:32.902 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGOUT})
+[INFO ] 2022-10-19 13:52:32.904 com.qa.base.BaseTest:49 - getting android driver

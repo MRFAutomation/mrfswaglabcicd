@@ -1,0 +1,4 @@
+[INFO ] 2022-10-19 19:06:58.885 com.qa.base.BaseTest:144 - AndroidDriver object created
+[INFO ] 2022-10-19 19:06:58.898 com.qa.base.BaseTest:150 - closing configis
+[INFO ] 2022-10-19 19:06:58.899 com.qa.base.BaseTest:154 - closing stringis
+[INFO ] 2022-10-19 19:06:58.950 com.qa.base.BaseTest:49 - getting android driver

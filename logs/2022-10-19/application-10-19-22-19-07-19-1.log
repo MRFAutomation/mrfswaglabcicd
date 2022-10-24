@@ -1,0 +1,14 @@
+[INFO ] 2022-10-19 19:07:18.214 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Price})
+[INFO ] 2022-10-19 19:07:18.221 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:18.299 com.qa.base.BaseTest:199 - getAttribute - Located by By.chained({By.AccessibilityId: test-Price})text: getProdDetailsSlbPrice from ProductDetailsPage
+[INFO ] 2022-10-19 19:07:18.342 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Menu})
+[INFO ] 2022-10-19 19:07:18.342 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:18.391 com.qa.base.BaseTest:185 - click - Located by By.chained({By.AccessibilityId: test-Menu}): Press Menu Button from - MenuPage
+[INFO ] 2022-10-19 19:07:18.475 com.qa.base.BaseTest:185 - click - Located by By.chained({By.AccessibilityId: test-LOGOUT}): Press Logout Button from - SettingsPage
+[INFO ] 2022-10-19 19:07:18.486 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:18.486 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGOUT})
+[INFO ] 2022-10-19 19:07:18.488 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:18.595 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:18.600 com.qa.test.ProductDetailsTest:97 -  ++++++++++++++ validateProdDetailsAndPrice ++++++++++++++ 
+[INFO ] 2022-10-19 19:07:18.600 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Username})
+[INFO ] 2022-10-19 19:07:18.601 com.qa.base.BaseTest:49 - getting android driver

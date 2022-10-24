@@ -1,0 +1,7 @@
+[INFO ] 2022-10-19 13:49:56.329 com.qa.base.BaseTest:199 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})text: getSLBTitle from ProductsPage
+[INFO ] 2022-10-19 13:49:56.484 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})
+[INFO ] 2022-10-19 13:49:56.485 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:49:56.610 com.qa.base.BaseTest:199 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})text: getSLBPrice from ProductsPage
+[INFO ] 2022-10-19 13:49:56.761 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Menu})
+[INFO ] 2022-10-19 13:49:56.761 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:49:56.811 com.qa.base.BaseTest:185 - click - Located by By.chained({By.AccessibilityId: test-Menu}): Press Menu Button from - MenuPage

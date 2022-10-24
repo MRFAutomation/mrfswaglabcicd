@@ -1,0 +1,7 @@
+[INFO ] 2022-10-19 13:50:25.338 com.qa.base.BaseTest:144 - AndroidDriver object created
+[INFO ] 2022-10-19 13:50:25.343 com.qa.base.BaseTest:150 - closing configis
+[INFO ] 2022-10-19 13:50:25.343 com.qa.base.BaseTest:154 - closing stringis
+[INFO ] 2022-10-19 13:50:25.345 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:50:25.350 com.qa.test.ProductDetailsTest:49 -  ++++++++++++++ validateProdTitlePrice ++++++++++++++ 
+[INFO ] 2022-10-19 13:50:25.351 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Username})
+[INFO ] 2022-10-19 13:50:25.352 com.qa.base.BaseTest:49 - getting android driver

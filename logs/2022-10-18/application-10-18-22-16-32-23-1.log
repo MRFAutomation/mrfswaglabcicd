@@ -1,0 +1,15 @@
+[INFO ] 2022-10-18 16:32:22.125 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Password})
+[INFO ] 2022-10-18 16:32:22.132 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:32:22.330 com.qa.base.BaseTest:192 - sendKeys - Located by By.chained({By.AccessibilityId: test-Username}): Enter UserName
+[INFO ] 2022-10-18 16:32:22.662 com.qa.base.BaseTest:192 - sendKeys - Located by By.chained({By.AccessibilityId: test-Password}): Enter Password
+[INFO ] 2022-10-18 16:32:22.888 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Password})
+[INFO ] 2022-10-18 16:32:22.889 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:32:23.243 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGIN})
+[INFO ] 2022-10-18 16:32:23.245 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:32:23.415 com.qa.base.BaseTest:192 - sendKeys - Located by By.chained({By.AccessibilityId: test-Password}): Enter Password
+[INFO ] 2022-10-18 16:32:23.786 com.qa.base.BaseTest:185 - click - Located by By.chained({By.AccessibilityId: test-LOGIN}): Press Login Button
+[INFO ] 2022-10-18 16:32:23.875 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:32:23.876 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 2022-10-18 16:32:23.877 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:32:23.972 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGIN})
+[INFO ] 2022-10-18 16:32:23.973 com.qa.base.BaseTest:49 - getting android driver

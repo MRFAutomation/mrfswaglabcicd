@@ -1,0 +1,6 @@
+[INFO ] 2022-10-19 13:49:26.296 com.qa.test.ProductDetailsTest:49 -  ++++++++++++++ validateProdTitlePrice ++++++++++++++ 
+[INFO ] 2022-10-19 13:49:26.305 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Username})
+[INFO ] 2022-10-19 13:49:26.313 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:49:26.839 com.qa.base.BaseTest:192 - sendKeys - Located by By.chained({By.AccessibilityId: test-Username}): Enter UserName
+[INFO ] 2022-10-19 13:49:27.432 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Password})
+[INFO ] 2022-10-19 13:49:27.434 com.qa.base.BaseTest:49 - getting android driver

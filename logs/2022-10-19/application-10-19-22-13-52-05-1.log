@@ -1,0 +1,15 @@
+[INFO ] 2022-10-19 13:52:04.016 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Price})
+[INFO ] 2022-10-19 13:52:04.021 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:52:04.135 com.qa.base.BaseTest:199 - getAttribute - Located by By.chained({By.AccessibilityId: test-Price})text: getProdDetailsSlbPrice from ProductDetailsPage
+[INFO ] 2022-10-19 13:52:04.218 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Menu})
+[INFO ] 2022-10-19 13:52:04.219 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:52:04.283 com.qa.base.BaseTest:185 - click - Located by By.chained({By.AccessibilityId: test-Menu}): Press Menu Button from - MenuPage
+[INFO ] 2022-10-19 13:52:04.369 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:52:04.369 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGOUT})
+[INFO ] 2022-10-19 13:52:04.370 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:52:04.761 com.qa.base.BaseTest:199 - getAttribute - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})text: getSLBTitleProdDetails from ProductDetailsPage
+[INFO ] 2022-10-19 13:52:04.887 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})
+[INFO ] 2022-10-19 13:52:04.888 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:52:04.995 com.qa.base.BaseTest:199 - getAttribute - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})text: getProdDetailsSlbDetails from ProductDetailsPage
+[INFO ] 2022-10-19 13:52:05.103 com.qa.base.BaseTest:205 - scrollToElement - Methode scrollToElement called from ProductDetailsTest_validateProdTitleDetailsPrice
+[INFO ] 2022-10-19 13:52:05.104 com.qa.base.BaseTest:49 - getting android driver

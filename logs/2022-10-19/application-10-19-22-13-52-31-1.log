@@ -1,0 +1,13 @@
+[INFO ] 2022-10-19 13:52:30.824 com.qa.base.BaseTest:185 - click - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]}): Press SLB Title from ProductsPage
+[INFO ] 2022-10-19 13:52:30.942 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:52:30.943 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})
+[INFO ] 2022-10-19 13:52:30.943 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:52:31.240 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Price})
+[INFO ] 2022-10-19 13:52:31.241 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:52:31.326 com.qa.base.BaseTest:199 - getAttribute - Located by By.chained({By.AccessibilityId: test-Price})text: getProdDetailsSlbPrice from ProductDetailsPage
+[INFO ] 2022-10-19 13:52:31.424 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-BACK TO PRODUCTS})
+[INFO ] 2022-10-19 13:52:31.426 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:52:31.514 com.qa.base.BaseTest:185 - click - Located by By.chained({By.AccessibilityId: test-BACK TO PRODUCTS}): Press pressBackToProductsBtn from ProductDetailsPage
+[INFO ] 2022-10-19 13:52:31.630 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:52:31.631 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 2022-10-19 13:52:31.631 com.qa.base.BaseTest:49 - getting android driver

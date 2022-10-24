@@ -1,0 +1,19 @@
+[INFO ] 2022-10-18 16:23:32.192 com.qa.base.BaseTest:198 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})text: getSLBTitle from ProductsPage
+[INFO ] 2022-10-18 16:23:32.336 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})
+[INFO ] 2022-10-18 16:23:32.337 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:32.469 com.qa.base.BaseTest:198 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})text: getSLBPrice from ProductsPage
+[INFO ] 2022-10-18 16:23:32.562 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Menu})
+[INFO ] 2022-10-18 16:23:32.563 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:32.615 com.qa.base.BaseTest:184 - click - Located by By.chained({By.AccessibilityId: test-Menu}): Press Menu Button from - MenuPage
+[INFO ] 2022-10-18 16:23:32.708 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:32.709 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGOUT})
+[INFO ] 2022-10-18 16:23:32.710 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:33.333 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Price})
+[INFO ] 2022-10-18 16:23:33.334 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:33.456 com.qa.base.BaseTest:198 - getAttribute - Located by By.chained({By.AccessibilityId: test-Price})text: getProdDetailsSlbPrice from ProductDetailsPage
+[INFO ] 2022-10-18 16:23:33.503 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-BACK TO PRODUCTS})
+[INFO ] 2022-10-18 16:23:33.504 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:33.555 com.qa.base.BaseTest:184 - click - Located by By.chained({By.AccessibilityId: test-BACK TO PRODUCTS}): Press pressBackToProductsBtn from ProductDetailsPage
+[INFO ] 2022-10-18 16:23:33.636 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:33.637 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 2022-10-18 16:23:33.637 com.qa.base.BaseTest:49 - getting android driver

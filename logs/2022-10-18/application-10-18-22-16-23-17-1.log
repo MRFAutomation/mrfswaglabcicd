@@ -1,0 +1,18 @@
+[INFO ] 2022-10-18 16:23:16.551 com.qa.base.BaseTest:198 - getAttribute - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})text: getSLBTitleProdDetails from ProductDetailsPage
+[INFO ] 2022-10-18 16:23:16.614 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Price})
+[INFO ] 2022-10-18 16:23:16.615 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:16.626 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})
+[INFO ] 2022-10-18 16:23:16.629 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:16.704 com.qa.base.BaseTest:198 - getAttribute - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})text: getProdDetailsSlbDetails from ProductDetailsPage
+[INFO ] 2022-10-18 16:23:16.726 com.qa.base.BaseTest:198 - getAttribute - Located by By.chained({By.AccessibilityId: test-Price})text: getProdDetailsSlbPrice from ProductDetailsPage
+[INFO ] 2022-10-18 16:23:16.782 com.qa.base.BaseTest:204 - scrollToElement - Methode scrollToElement called from ProductDetailsTest_validateProdDetailsAndPrice
+[INFO ] 2022-10-18 16:23:16.783 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:16.794 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-BACK TO PRODUCTS})
+[INFO ] 2022-10-18 16:23:16.795 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:16.850 com.qa.base.BaseTest:184 - click - Located by By.chained({By.AccessibilityId: test-BACK TO PRODUCTS}): Press pressBackToProductsBtn from ProductDetailsPage
+[INFO ] 2022-10-18 16:23:16.956 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:16.957 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 2022-10-18 16:23:16.958 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:17.803 com.qa.base.BaseTest:198 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})text: getSLBTitle from ProductsPage
+[INFO ] 2022-10-18 16:23:17.952 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})
+[INFO ] 2022-10-18 16:23:17.952 com.qa.base.BaseTest:49 - getting android driver

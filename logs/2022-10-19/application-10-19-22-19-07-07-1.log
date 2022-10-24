@@ -1,0 +1,10 @@
+[INFO ] 2022-10-19 19:07:06.969 com.qa.base.BaseTest:185 - click - Located by By.chained({By.AccessibilityId: test-LOGOUT}): Press Logout Button from - SettingsPage
+[INFO ] 2022-10-19 19:07:07.040 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:07.050 com.qa.test.ProductDetailsTest:70 -  ++++++++++++++ validateProdTitleDetailsPrice ++++++++++++++ 
+[INFO ] 2022-10-19 19:07:07.051 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Username})
+[INFO ] 2022-10-19 19:07:07.051 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:07.064 com.qa.base.BaseTest:185 - click - Located by By.chained({By.AccessibilityId: test-LOGOUT}): Press Logout Button from - SettingsPage
+[INFO ] 2022-10-19 19:07:07.147 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:07.152 com.qa.test.ProductDetailsTest:70 -  ++++++++++++++ validateProdTitleDetailsPrice ++++++++++++++ 
+[INFO ] 2022-10-19 19:07:07.153 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Username})
+[INFO ] 2022-10-19 19:07:07.153 com.qa.base.BaseTest:49 - getting android driver

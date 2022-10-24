@@ -1,0 +1,14 @@
+[INFO ] 2022-10-19 19:07:00.036 com.qa.test.ProductDetailsTest:49 -  ++++++++++++++ validateProdTitlePrice ++++++++++++++ 
+[INFO ] 2022-10-19 19:07:00.067 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Username})
+[INFO ] 2022-10-19 19:07:00.077 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:00.392 com.qa.base.BaseTest:144 - AndroidDriver object created
+[INFO ] 2022-10-19 19:07:00.393 com.qa.base.BaseTest:150 - closing configis
+[INFO ] 2022-10-19 19:07:00.393 com.qa.base.BaseTest:154 - closing stringis
+[INFO ] 2022-10-19 19:07:00.395 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:00.405 com.qa.test.ProductDetailsTest:49 -  ++++++++++++++ validateProdTitlePrice ++++++++++++++ 
+[INFO ] 2022-10-19 19:07:00.407 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Username})
+[INFO ] 2022-10-19 19:07:00.409 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:00.544 com.qa.base.BaseTest:192 - sendKeys - Located by By.chained({By.AccessibilityId: test-Username}): Enter UserName
+[INFO ] 2022-10-19 19:07:01.139 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Password})
+[INFO ] 2022-10-19 19:07:01.139 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:01.685 com.qa.base.BaseTest:192 - sendKeys - Located by By.chained({By.AccessibilityId: test-Password}): Enter Password

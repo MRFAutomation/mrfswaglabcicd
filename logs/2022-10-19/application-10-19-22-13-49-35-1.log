@@ -1,0 +1,4 @@
+[INFO ] 2022-10-19 13:49:34.329 com.qa.base.BaseTest:192 - sendKeys - Located by By.chained({By.AccessibilityId: test-Username}): Enter UserName
+[INFO ] 2022-10-19 13:49:34.903 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Password})
+[INFO ] 2022-10-19 13:49:34.904 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:49:35.465 com.qa.base.BaseTest:192 - sendKeys - Located by By.chained({By.AccessibilityId: test-Password}): Enter Password

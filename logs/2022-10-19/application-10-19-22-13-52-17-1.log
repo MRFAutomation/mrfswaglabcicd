@@ -1,0 +1,16 @@
+[INFO ] 2022-10-19 13:52:16.694 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Price})
+[INFO ] 2022-10-19 13:52:16.697 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:52:16.799 com.qa.base.BaseTest:199 - getAttribute - Located by By.chained({By.AccessibilityId: test-Price})text: getProdDetailsSlbPrice from ProductDetailsPage
+[INFO ] 2022-10-19 13:52:16.865 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-BACK TO PRODUCTS})
+[INFO ] 2022-10-19 13:52:16.866 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:52:16.930 com.qa.base.BaseTest:185 - click - Located by By.chained({By.AccessibilityId: test-BACK TO PRODUCTS}): Press pressBackToProductsBtn from ProductDetailsPage
+[INFO ] 2022-10-19 13:52:17.019 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:52:17.021 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 2022-10-19 13:52:17.021 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:52:17.200 com.qa.base.BaseTest:199 - getAttribute - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})text: getSLBTitleProdDetails from ProductDetailsPage
+[INFO ] 2022-10-19 13:52:17.266 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})
+[INFO ] 2022-10-19 13:52:17.266 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:52:17.350 com.qa.base.BaseTest:199 - getAttribute - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})text: getProdDetailsSlbDetails from ProductDetailsPage
+[INFO ] 2022-10-19 13:52:17.417 com.qa.base.BaseTest:205 - scrollToElement - Methode scrollToElement called from ProductDetailsTest_validateProdDetailsAndPrice
+[INFO ] 2022-10-19 13:52:17.419 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:52:17.907 com.qa.base.BaseTest:199 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})text: getSLBTitle from ProductsPage

@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-12T22:08:39 PKT" name="SwagLab" finished-at="2022-10-12T22:09:36 PKT" duration-ms="56984">
+  <suite started-at="2022-10-19T19:06:51 PKT" name="SwagLab" finished-at="2022-10-19T19:07:50 PKT" duration-ms="58902">
     <groups>
     </groups>
-    <test started-at="2022-10-12T22:08:39 PKT" name="RealDevice" finished-at="2022-10-12T22:09:34 PKT" duration-ms="54698">
+    <test started-at="2022-10-19T19:06:51 PKT" name="RealDevice" finished-at="2022-10-19T19:07:45 PKT" duration-ms="54081">
       <class name="com.qa.test.ProductDetailsTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.qa.test.ProductDetailsTest@17cdf2d0]" started-at="2022-10-12T22:08:37 PKT" name="beforeSuite" finished-at="2022-10-12T22:08:39 PKT" duration-ms="2066" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.qa.test.ProductDetailsTest@c5ee75e]" started-at="2022-10-19T19:06:49 PKT" name="beforeSuite" finished-at="2022-10-19T19:06:51 PKT" duration-ms="2582" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.ProductDetailsTest@17cdf2d0]" started-at="2022-10-12T22:08:39 PKT" name="beforeTest" finished-at="2022-10-12T22:08:45 PKT" duration-ms="6346" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.ProductDetailsTest@c5ee75e]" started-at="2022-10-19T19:06:51 PKT" name="beforeTest" finished-at="2022-10-19T19:06:58 PKT" duration-ms="7194" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,47 +37,47 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.test.ProductDetailsTest@17cdf2d0]" started-at="2022-10-12T22:08:45 PKT" name="beforeClass" finished-at="2022-10-12T22:08:46 PKT" duration-ms="363" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.test.ProductDetailsTest@c5ee75e]" started-at="2022-10-19T19:06:58 PKT" name="beforeClass" finished-at="2022-10-19T19:06:59 PKT" duration-ms="563" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="validateProdTitlePrice()[pri:1, instance:com.qa.test.ProductDetailsTest@17cdf2d0]" started-at="2022-10-12T22:08:46 PKT" name="validateProdTitlePrice" finished-at="2022-10-12T22:08:53 PKT" duration-ms="7124" status="PASS">
+        <test-method signature="validateProdTitlePrice()[pri:1, instance:com.qa.test.ProductDetailsTest@c5ee75e]" started-at="2022-10-19T19:06:59 PKT" name="validateProdTitlePrice" finished-at="2022-10-19T19:07:07 PKT" duration-ms="7597" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateProdTitlePrice -->
-        <test-method signature="validateProdTitleDetailsPrice()[pri:2, instance:com.qa.test.ProductDetailsTest@17cdf2d0]" started-at="2022-10-12T22:08:53 PKT" name="validateProdTitleDetailsPrice" finished-at="2022-10-12T22:09:06 PKT" duration-ms="13041" status="PASS">
+        <test-method signature="validateProdTitleDetailsPrice()[pri:2, instance:com.qa.test.ProductDetailsTest@c5ee75e]" started-at="2022-10-19T19:07:07 PKT" name="validateProdTitleDetailsPrice" finished-at="2022-10-19T19:07:18 PKT" duration-ms="11447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateProdTitleDetailsPrice -->
-        <test-method signature="validateProdDetailsAndPrice()[pri:3, instance:com.qa.test.ProductDetailsTest@17cdf2d0]" started-at="2022-10-12T22:09:06 PKT" name="validateProdDetailsAndPrice" finished-at="2022-10-12T22:09:19 PKT" duration-ms="13183" status="PASS">
+        <test-method signature="validateProdDetailsAndPrice()[pri:3, instance:com.qa.test.ProductDetailsTest@c5ee75e]" started-at="2022-10-19T19:07:18 PKT" name="validateProdDetailsAndPrice" finished-at="2022-10-19T19:07:31 PKT" duration-ms="12675" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateProdDetailsAndPrice -->
-        <test-method signature="validateProdTitlePriceWithDeeplink()[pri:4, instance:com.qa.test.ProductDetailsTest@17cdf2d0]" started-at="2022-10-12T22:09:19 PKT" name="validateProdTitlePriceWithDeeplink" finished-at="2022-10-12T22:09:23 PKT" duration-ms="4282" status="PASS">
+        <test-method signature="validateProdTitlePriceWithDeeplink()[pri:4, instance:com.qa.test.ProductDetailsTest@c5ee75e]" started-at="2022-10-19T19:07:31 PKT" name="validateProdTitlePriceWithDeeplink" finished-at="2022-10-19T19:07:35 PKT" duration-ms="4180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateProdTitlePriceWithDeeplink -->
-        <test-method signature="validateProdDetailsAndPriceWithDeeplink()[pri:5, instance:com.qa.test.ProductDetailsTest@17cdf2d0]" started-at="2022-10-12T22:09:23 PKT" name="validateProdDetailsAndPriceWithDeeplink" finished-at="2022-10-12T22:09:33 PKT" duration-ms="10020" status="PASS">
+        <test-method signature="validateProdDetailsAndPriceWithDeeplink()[pri:5, instance:com.qa.test.ProductDetailsTest@c5ee75e]" started-at="2022-10-19T19:07:35 PKT" name="validateProdDetailsAndPriceWithDeeplink" finished-at="2022-10-19T19:07:45 PKT" duration-ms="10045" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateProdDetailsAndPriceWithDeeplink -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.test.ProductDetailsTest@17cdf2d0]" started-at="2022-10-12T22:09:33 PKT" name="afterClass" finished-at="2022-10-12T22:09:33 PKT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.qa.test.ProductDetailsTest@17cdf2d0]" started-at="2022-10-12T22:09:33 PKT" name="afterTest" finished-at="2022-10-12T22:09:34 PKT" duration-ms="259" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.qa.test.ProductDetailsTest@c5ee75e]" started-at="2022-10-19T19:07:45 PKT" name="afterTest" finished-at="2022-10-19T19:07:45 PKT" duration-ms="276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.qa.test.ProductDetailsTest@17cdf2d0]" started-at="2022-10-12T22:09:36 PKT" name="afterSuite" finished-at="2022-10-12T22:09:36 PKT" duration-ms="58" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.test.ProductDetailsTest@c5ee75e]" started-at="2022-10-19T19:07:45 PKT" name="afterClass" finished-at="2022-10-19T19:07:45 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.qa.test.ProductDetailsTest@c5ee75e]" started-at="2022-10-19T19:07:50 PKT" name="afterSuite" finished-at="2022-10-19T19:07:50 PKT" duration-ms="68" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.qa.test.ProductDetailsTest -->
     </test> <!-- RealDevice -->
-    <test started-at="2022-10-12T22:08:39 PKT" name="Emulator" finished-at="2022-10-12T22:09:36 PKT" duration-ms="56984">
+    <test started-at="2022-10-19T19:06:51 PKT" name="Emulator" finished-at="2022-10-19T19:07:50 PKT" duration-ms="58902">
       <class name="com.qa.test.ProductDetailsTest">
-        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.ProductDetailsTest@3401a114]" started-at="2022-10-12T22:08:39 PKT" name="beforeTest" finished-at="2022-10-12T22:08:47 PKT" duration-ms="7716" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.ProductDetailsTest@56aaaecd]" started-at="2022-10-19T19:06:51 PKT" name="beforeTest" finished-at="2022-10-19T19:07:00 PKT" duration-ms="8687" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -103,38 +103,38 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.test.ProductDetailsTest@3401a114]" started-at="2022-10-12T22:08:47 PKT" name="beforeClass" finished-at="2022-10-12T22:08:47 PKT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.test.ProductDetailsTest@56aaaecd]" started-at="2022-10-19T19:07:00 PKT" name="beforeClass" finished-at="2022-10-19T19:07:00 PKT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="validateProdTitlePrice()[pri:1, instance:com.qa.test.ProductDetailsTest@3401a114]" started-at="2022-10-12T22:08:47 PKT" name="validateProdTitlePrice" finished-at="2022-10-12T22:08:54 PKT" duration-ms="7555" status="PASS">
+        <test-method signature="validateProdTitlePrice()[pri:1, instance:com.qa.test.ProductDetailsTest@56aaaecd]" started-at="2022-10-19T19:07:00 PKT" name="validateProdTitlePrice" finished-at="2022-10-19T19:07:07 PKT" duration-ms="6644" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateProdTitlePrice -->
-        <test-method signature="validateProdTitleDetailsPrice()[pri:2, instance:com.qa.test.ProductDetailsTest@3401a114]" started-at="2022-10-12T22:08:54 PKT" name="validateProdTitleDetailsPrice" finished-at="2022-10-12T22:09:07 PKT" duration-ms="12465" status="PASS">
+        <test-method signature="validateProdTitleDetailsPrice()[pri:2, instance:com.qa.test.ProductDetailsTest@56aaaecd]" started-at="2022-10-19T19:07:07 PKT" name="validateProdTitleDetailsPrice" finished-at="2022-10-19T19:07:20 PKT" duration-ms="13163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateProdTitleDetailsPrice -->
-        <test-method signature="validateProdDetailsAndPrice()[pri:3, instance:com.qa.test.ProductDetailsTest@3401a114]" started-at="2022-10-12T22:09:07 PKT" name="validateProdDetailsAndPrice" finished-at="2022-10-12T22:09:21 PKT" duration-ms="14012" status="PASS">
+        <test-method signature="validateProdDetailsAndPrice()[pri:3, instance:com.qa.test.ProductDetailsTest@56aaaecd]" started-at="2022-10-19T19:07:20 PKT" name="validateProdDetailsAndPrice" finished-at="2022-10-19T19:07:34 PKT" duration-ms="13838" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateProdDetailsAndPrice -->
-        <test-method signature="validateProdTitlePriceWithDeeplink()[pri:4, instance:com.qa.test.ProductDetailsTest@3401a114]" started-at="2022-10-12T22:09:21 PKT" name="validateProdTitlePriceWithDeeplink" finished-at="2022-10-12T22:09:24 PKT" duration-ms="3917" status="PASS">
+        <test-method signature="validateProdTitlePriceWithDeeplink()[pri:4, instance:com.qa.test.ProductDetailsTest@56aaaecd]" started-at="2022-10-19T19:07:34 PKT" name="validateProdTitlePriceWithDeeplink" finished-at="2022-10-19T19:07:38 PKT" duration-ms="4276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateProdTitlePriceWithDeeplink -->
-        <test-method signature="validateProdDetailsAndPriceWithDeeplink()[pri:5, instance:com.qa.test.ProductDetailsTest@3401a114]" started-at="2022-10-12T22:09:24 PKT" name="validateProdDetailsAndPriceWithDeeplink" finished-at="2022-10-12T22:09:35 PKT" duration-ms="10931" status="PASS">
+        <test-method signature="validateProdDetailsAndPriceWithDeeplink()[pri:5, instance:com.qa.test.ProductDetailsTest@56aaaecd]" started-at="2022-10-19T19:07:38 PKT" name="validateProdDetailsAndPriceWithDeeplink" finished-at="2022-10-19T19:07:50 PKT" duration-ms="11910" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateProdDetailsAndPriceWithDeeplink -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.test.ProductDetailsTest@3401a114]" started-at="2022-10-12T22:09:35 PKT" name="afterClass" finished-at="2022-10-12T22:09:35 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.qa.test.ProductDetailsTest@3401a114]" started-at="2022-10-12T22:09:35 PKT" name="afterTest" finished-at="2022-10-12T22:09:36 PKT" duration-ms="368" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.qa.test.ProductDetailsTest@56aaaecd]" started-at="2022-10-19T19:07:50 PKT" name="afterTest" finished-at="2022-10-19T19:07:50 PKT" duration-ms="361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.test.ProductDetailsTest@56aaaecd]" started-at="2022-10-19T19:07:50 PKT" name="afterClass" finished-at="2022-10-19T19:07:50 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
       </class> <!-- com.qa.test.ProductDetailsTest -->
     </test> <!-- Emulator -->
   </suite> <!-- SwagLab -->

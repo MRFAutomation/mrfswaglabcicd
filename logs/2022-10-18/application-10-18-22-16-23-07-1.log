@@ -1,0 +1,11 @@
+[INFO ] 2022-10-18 16:23:06.483 com.qa.base.BaseTest:184 - click - Located by By.chained({By.AccessibilityId: test-LOGOUT}): Press Logout Button from - SettingsPage
+[INFO ] 2022-10-18 16:23:06.591 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:06.599 com.qa.test.ProductDetailsTest:97 -  ++++++++++++++ validateProdDetailsAndPrice ++++++++++++++ 
+[INFO ] 2022-10-18 16:23:06.600 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Username})
+[INFO ] 2022-10-18 16:23:06.601 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:07.820 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Price})
+[INFO ] 2022-10-18 16:23:07.821 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:07.931 com.qa.base.BaseTest:198 - getAttribute - Located by By.chained({By.AccessibilityId: test-Price})text: getProdDetailsSlbPrice from ProductDetailsPage
+[INFO ] 2022-10-18 16:23:07.968 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Menu})
+[INFO ] 2022-10-18 16:23:07.968 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:07.997 com.qa.base.BaseTest:184 - click - Located by By.chained({By.AccessibilityId: test-Menu}): Press Menu Button from - MenuPage

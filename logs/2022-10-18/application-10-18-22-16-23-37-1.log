@@ -1,0 +1,5 @@
+[INFO ] 2022-10-18 16:23:36.841 com.qa.base.BaseTest:184 - click - Located by By.chained({By.AccessibilityId: test-LOGOUT}): Press Logout Button from - SettingsPage
+[INFO ] 2022-10-18 16:23:36.915 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:36.918 com.qa.base.BaseTest:213 - afterTest - quitting driver
+[INFO ] 2022-10-18 16:23:36.918 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:37.374 com.qa.base.BaseTest:227 - Appium server stopped

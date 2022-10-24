@@ -1,0 +1,5 @@
+[INFO ] 2022-10-19 13:51:58.509 com.qa.base.BaseTest:185 - click - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]}): Press SLB Title from ProductsPage
+[INFO ] 2022-10-19 13:51:59.247 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:51:59.250 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})
+[INFO ] 2022-10-19 13:51:59.251 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:51:59.430 com.qa.base.BaseTest:192 - sendKeys - Located by By.chained({By.AccessibilityId: test-Username}): Enter UserName

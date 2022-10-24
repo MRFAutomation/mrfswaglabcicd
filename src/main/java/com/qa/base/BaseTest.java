@@ -7,6 +7,7 @@ import java.net.URL;
 import java.util.HashMap;
 import java.util.Properties;
 
+import org.apache.logging.log4j.ThreadContext;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -83,12 +84,24 @@ public class BaseTest {
 
 	@Parameters({ "deviceType", "udid", "deviceName", "emulatorFlag" })
 	@BeforeTest
-	public void beforeTest(String deviceType, String udid, String deviceName,@Optional("emulatorOnly")String emulatorFlag) throws IOException {
+	public void beforeTest(String deviceType, String udid, String deviceName,
+			@Optional("emulatorOnly") String emulatorFlag) throws IOException {
 		AndroidDriver driver;
 		InputStream configis = null;
 		InputStream stringis = null;
 		setDeviceName(deviceName);
 		Properties props = new Properties();
+
+		String strFile = "logs" + File.separator + "android" + "_" + deviceName;
+		File logFile = new File(strFile);
+		if (!logFile.exists()) {
+			logFile.mkdirs();
+		}
+		// route logs to separate file for each thread
+		ThreadContext.put("ROUTINGKEY", strFile);
+		testUtils.log().info("log path: " + strFile);
+		testUtils.log("Rana");
+
 		try {
 			testUtils.log().info("Properties object created");
 			configis = getClass().getClassLoader().getResourceAsStream("config.properties");
@@ -202,16 +215,19 @@ public class BaseTest {
 		getDriver().quit();
 	}
 
-	/*
-	 * @BeforeSuite public void beforeSuite() { // startAppiumServer();
-	 * testUtils.log().info("Appium server called in before suite..."); }
-	 */
+	@BeforeSuite
+	public void beforeSuite() {
+		startAppiumServer();
+		testUtils.log().info("Appium server called in before suite...");
+	}
 
-	/*
-	 * @AfterSuite(alwaysRun = true) public void afterSuite() { if
-	 * (server.isRunning()) { server.stop();
-	 * testUtils.log().info("Appium server stopped"); } }
-	 */
+	@AfterSuite(alwaysRun = true)
+	public void afterSuite() {
+		if (server.isRunning()) {
+			server.stop();
+			testUtils.log().info("Appium server stopped");
+		}
+	}
 
 	public void waitForSeconds(int timeInSeconds) {
 		int timeInMilliSeconds = timeInSeconds * 1000;

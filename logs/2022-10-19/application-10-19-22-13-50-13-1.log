@@ -1,0 +1,10 @@
+[INFO ] 2022-10-19 13:50:12.021 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Menu})
+[INFO ] 2022-10-19 13:50:12.025 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:50:12.081 com.qa.base.BaseTest:185 - click - Located by By.chained({By.AccessibilityId: test-Menu}): Press Menu Button from - MenuPage
+[INFO ] 2022-10-19 13:50:12.158 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:50:12.159 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGOUT})
+[INFO ] 2022-10-19 13:50:12.160 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:50:13.826 com.qa.base.BaseTest:185 - click - Located by By.chained({By.AccessibilityId: test-LOGOUT}): Press Logout Button from - SettingsPage
+[INFO ] 2022-10-19 13:50:13.911 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:50:13.915 com.qa.base.BaseTest:214 - afterTest - quitting driver
+[INFO ] 2022-10-19 13:50:13.916 com.qa.base.BaseTest:49 - getting android driver

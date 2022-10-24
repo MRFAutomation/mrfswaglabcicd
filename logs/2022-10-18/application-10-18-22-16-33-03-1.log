@@ -1,0 +1,7 @@
+[INFO ] 2022-10-18 16:33:02.049 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:33:02.052 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGOUT})
+[INFO ] 2022-10-18 16:33:02.053 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:33:03.686 com.qa.base.BaseTest:185 - click - Located by By.chained({By.AccessibilityId: test-LOGOUT}): Press Logout Button from - SettingsPage
+[INFO ] 2022-10-18 16:33:03.750 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:33:03.753 com.qa.base.BaseTest:214 - afterTest - quitting driver
+[INFO ] 2022-10-18 16:33:03.753 com.qa.base.BaseTest:49 - getting android driver

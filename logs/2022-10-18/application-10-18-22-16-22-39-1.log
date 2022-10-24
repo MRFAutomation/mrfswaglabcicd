@@ -1,0 +1,16 @@
+[INFO ] 2022-10-18 16:22:39.811 com.qa.base.BaseTest:171 - Appium Server Started...
+[INFO ] 2022-10-18 16:22:39.816 com.qa.base.BaseTest:220 - Appium server called in before suite...
+[INFO ] 2022-10-18 16:22:39.828 com.qa.base.BaseTest:102 - log path: logs\android_Pixel4_Emulator
+[INFO ] 2022-10-18 16:22:39.828 com.qa.base.BaseTest:102 - log path: logs\android_Pixel4_Real_Device
+[INFO ] 2022-10-18 16:22:39.829 com.qa.base.BaseTest:105 - Properties object created
+[INFO ] 2022-10-18 16:22:39.829 com.qa.base.BaseTest:105 - Properties object created
+[INFO ] 2022-10-18 16:22:39.830 com.qa.base.BaseTest:109 - Properties file loaded
+[INFO ] 2022-10-18 16:22:39.830 com.qa.base.BaseTest:109 - Properties file loaded
+[INFO ] 2022-10-18 16:22:39.843 com.qa.base.BaseTest:112 - parseStringXML method called
+[INFO ] 2022-10-18 16:22:39.843 com.qa.base.BaseTest:112 - parseStringXML method called
+[INFO ] 2022-10-18 16:22:39.844 com.qa.base.BaseTest:115 - DesiredCapabilities object created
+[INFO ] 2022-10-18 16:22:39.844 com.qa.base.BaseTest:115 - DesiredCapabilities object created
+[INFO ] 2022-10-18 16:22:39.845 com.qa.base.BaseTest:125 - Required DesiredCapabilities are set
+[INFO ] 2022-10-18 16:22:39.845 com.qa.base.BaseTest:125 - Required DesiredCapabilities are set
+[INFO ] 2022-10-18 16:22:39.845 com.qa.base.BaseTest:136 - Desired Capabilities for Pixel4_Real_Device have been set
+[INFO ] 2022-10-18 16:22:39.845 com.qa.base.BaseTest:131 - Desired Capabilities for Pixel4_Emulator have been set

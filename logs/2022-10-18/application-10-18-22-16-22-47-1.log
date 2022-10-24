@@ -1,0 +1,10 @@
+[INFO ] 2022-10-18 16:22:46.203 com.qa.base.BaseTest:143 - AndroidDriver object created
+[INFO ] 2022-10-18 16:22:46.231 com.qa.base.BaseTest:149 - closing configis
+[INFO ] 2022-10-18 16:22:46.235 com.qa.base.BaseTest:153 - closing stringis
+[INFO ] 2022-10-18 16:22:46.304 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:22:46.757 com.qa.test.ProductDetailsTest:49 -  ++++++++++++++ validateProdTitlePrice ++++++++++++++ 
+[INFO ] 2022-10-18 16:22:46.761 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Username})
+[INFO ] 2022-10-18 16:22:46.769 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:22:47.113 com.qa.base.BaseTest:191 - sendKeys - Located by By.chained({By.AccessibilityId: test-Username}): Enter UserName
+[INFO ] 2022-10-18 16:22:47.720 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Password})
+[INFO ] 2022-10-18 16:22:47.721 com.qa.base.BaseTest:49 - getting android driver

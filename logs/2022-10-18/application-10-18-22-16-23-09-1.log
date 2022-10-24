@@ -1,0 +1,14 @@
+[INFO ] 2022-10-18 16:23:08.066 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:08.070 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGOUT})
+[INFO ] 2022-10-18 16:23:08.070 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:08.251 com.qa.base.BaseTest:191 - sendKeys - Located by By.chained({By.AccessibilityId: test-Username}): Enter UserName
+[INFO ] 2022-10-18 16:23:08.821 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Password})
+[INFO ] 2022-10-18 16:23:08.822 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:09.362 com.qa.base.BaseTest:191 - sendKeys - Located by By.chained({By.AccessibilityId: test-Password}): Enter Password
+[INFO ] 2022-10-18 16:23:09.798 com.qa.base.BaseTest:184 - click - Located by By.chained({By.AccessibilityId: test-LOGOUT}): Press Logout Button from - SettingsPage
+[INFO ] 2022-10-18 16:23:09.865 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:09.868 com.qa.test.ProductDetailsTest:97 -  ++++++++++++++ validateProdDetailsAndPrice ++++++++++++++ 
+[INFO ] 2022-10-18 16:23:09.869 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Username})
+[INFO ] 2022-10-18 16:23:09.869 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:09.944 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGIN})
+[INFO ] 2022-10-18 16:23:09.944 com.qa.base.BaseTest:49 - getting android driver

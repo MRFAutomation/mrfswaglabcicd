@@ -1,4 +1,5 @@
-[INFO ] 12 Oct 2022 22:38:40,119 qa.base.BaseTest:172 - click - Located by By.chained({By.AccessibilityId: test-LOGOUT}): Press Logout Button from - SettingsPage
-[INFO ] 12 Oct 2022 22:38:40,205 qa.base.BaseTest:48 - getting android driver
-[INFO ] 12 Oct 2022 22:38:40,207 qa.base.BaseTest:201 - afterTest - quitting driver
-[INFO ] 12 Oct 2022 22:38:40,207 qa.base.BaseTest:48 - getting android driver
+[INFO ] 2022-10-19 19:07:50.158 com.qa.base.BaseTest:185 - click - Located by By.chained({By.AccessibilityId: test-LOGOUT}): Press Logout Button from - SettingsPage
+[INFO ] 2022-10-19 19:07:50.241 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:50.245 com.qa.base.BaseTest:214 - afterTest - quitting driver
+[INFO ] 2022-10-19 19:07:50.246 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:50.706 com.qa.base.BaseTest:228 - Appium server stopped

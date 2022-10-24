@@ -1,0 +1,15 @@
+[INFO ] 2022-10-18 16:32:12.613 com.qa.base.BaseTest:144 - AndroidDriver object created
+[INFO ] 2022-10-18 16:32:12.624 com.qa.base.BaseTest:150 - closing configis
+[INFO ] 2022-10-18 16:32:12.627 com.qa.base.BaseTest:154 - closing stringis
+[INFO ] 2022-10-18 16:32:12.680 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:32:13.302 com.qa.test.ProductDetailsTest:49 -  ++++++++++++++ validateProdTitlePrice ++++++++++++++ 
+[INFO ] 2022-10-18 16:32:13.307 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Username})
+[INFO ] 2022-10-18 16:32:13.315 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:32:13.525 com.qa.base.BaseTest:144 - AndroidDriver object created
+[INFO ] 2022-10-18 16:32:13.526 com.qa.base.BaseTest:150 - closing configis
+[INFO ] 2022-10-18 16:32:13.527 com.qa.base.BaseTest:154 - closing stringis
+[INFO ] 2022-10-18 16:32:13.529 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:32:13.539 com.qa.test.ProductDetailsTest:49 -  ++++++++++++++ validateProdTitlePrice ++++++++++++++ 
+[INFO ] 2022-10-18 16:32:13.539 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Username})
+[INFO ] 2022-10-18 16:32:13.541 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:32:13.602 com.qa.base.BaseTest:192 - sendKeys - Located by By.chained({By.AccessibilityId: test-Username}): Enter UserName

@@ -1,0 +1,9 @@
+[INFO ] 2022-10-18 16:23:10.484 com.qa.base.BaseTest:184 - click - Located by By.chained({By.AccessibilityId: test-LOGIN}): Press Login Button
+[INFO ] 2022-10-18 16:23:10.570 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:10.571 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 2022-10-18 16:23:10.572 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:11.634 com.qa.base.BaseTest:191 - sendKeys - Located by By.chained({By.AccessibilityId: test-Username}): Enter UserName
+[INFO ] 2022-10-18 16:23:11.688 com.qa.base.BaseTest:184 - click - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]}): Press SLB Title from ProductsPage
+[INFO ] 2022-10-18 16:23:11.841 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:11.842 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})
+[INFO ] 2022-10-18 16:23:11.843 com.qa.base.BaseTest:49 - getting android driver

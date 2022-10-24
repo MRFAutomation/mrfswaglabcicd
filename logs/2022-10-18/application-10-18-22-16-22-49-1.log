@@ -1,0 +1,14 @@
+[INFO ] 2022-10-18 16:22:48.263 com.qa.base.BaseTest:143 - AndroidDriver object created
+[INFO ] 2022-10-18 16:22:48.276 com.qa.base.BaseTest:149 - closing configis
+[INFO ] 2022-10-18 16:22:48.277 com.qa.base.BaseTest:153 - closing stringis
+[INFO ] 2022-10-18 16:22:48.279 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:22:48.289 com.qa.test.ProductDetailsTest:49 -  ++++++++++++++ validateProdTitlePrice ++++++++++++++ 
+[INFO ] 2022-10-18 16:22:48.290 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Username})
+[INFO ] 2022-10-18 16:22:48.291 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:22:48.374 com.qa.base.BaseTest:191 - sendKeys - Located by By.chained({By.AccessibilityId: test-Password}): Enter Password
+[INFO ] 2022-10-18 16:22:48.976 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGIN})
+[INFO ] 2022-10-18 16:22:48.977 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:22:49.530 com.qa.base.BaseTest:184 - click - Located by By.chained({By.AccessibilityId: test-LOGIN}): Press Login Button
+[INFO ] 2022-10-18 16:22:49.634 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:22:49.637 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 2022-10-18 16:22:49.637 com.qa.base.BaseTest:49 - getting android driver

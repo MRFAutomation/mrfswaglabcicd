@@ -1,2 +1,0 @@
-24:Android::com.qa.base.BaseTest:waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Password})
-23:Android::com.qa.base.BaseTest:waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Username})

@@ -1,0 +1,7 @@
+[INFO ] 2022-10-18 16:23:18.072 com.qa.base.BaseTest:198 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Price"])[1]})text: getSLBPrice from ProductsPage
+[INFO ] 2022-10-18 16:23:18.198 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Menu})
+[INFO ] 2022-10-18 16:23:18.199 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:18.249 com.qa.base.BaseTest:184 - click - Located by By.chained({By.AccessibilityId: test-Menu}): Press Menu Button from - MenuPage
+[INFO ] 2022-10-18 16:23:18.325 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:18.327 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGOUT})
+[INFO ] 2022-10-18 16:23:18.328 com.qa.base.BaseTest:49 - getting android driver

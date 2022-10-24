@@ -1,0 +1,9 @@
+[INFO ] 2022-10-19 13:49:50.124 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:49:50.130 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})
+[INFO ] 2022-10-19 13:49:50.132 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:49:51.187 com.qa.base.BaseTest:199 - getAttribute - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})text: getSLBTitleProdDetails from ProductDetailsPage
+[INFO ] 2022-10-19 13:49:51.308 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})
+[INFO ] 2022-10-19 13:49:51.308 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:49:51.424 com.qa.base.BaseTest:199 - getAttribute - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})text: getProdDetailsSlbDetails from ProductDetailsPage
+[INFO ] 2022-10-19 13:49:51.541 com.qa.base.BaseTest:205 - scrollToElement - Methode scrollToElement called from ProductDetailsTest_validateProdDetailsAndPrice
+[INFO ] 2022-10-19 13:49:51.541 com.qa.base.BaseTest:49 - getting android driver

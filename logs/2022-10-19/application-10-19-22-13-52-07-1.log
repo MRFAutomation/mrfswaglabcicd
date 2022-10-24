@@ -1,0 +1,6 @@
+[INFO ] 2022-10-19 13:52:06.042 com.qa.base.BaseTest:185 - click - Located by By.chained({By.AccessibilityId: test-LOGOUT}): Press Logout Button from - SettingsPage
+[INFO ] 2022-10-19 13:52:06.142 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:52:06.147 com.qa.test.ProductDetailsTest:97 -  ++++++++++++++ validateProdDetailsAndPrice ++++++++++++++ 
+[INFO ] 2022-10-19 13:52:06.149 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Username})
+[INFO ] 2022-10-19 13:52:06.151 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 13:52:07.819 com.qa.base.BaseTest:192 - sendKeys - Located by By.chained({By.AccessibilityId: test-Username}): Enter UserName

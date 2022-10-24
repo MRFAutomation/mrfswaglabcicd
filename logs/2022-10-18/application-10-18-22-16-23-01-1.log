@@ -1,0 +1,14 @@
+[INFO ] 2022-10-18 16:23:00.188 com.qa.base.BaseTest:184 - click - Located by By.chained({By.AccessibilityId: test-LOGIN}): Press Login Button
+[INFO ] 2022-10-18 16:23:00.250 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:00.250 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 2022-10-18 16:23:00.251 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:00.348 com.qa.base.BaseTest:198 - getAttribute - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})text: getSLBTitleProdDetails from ProductDetailsPage
+[INFO ] 2022-10-18 16:23:00.473 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})
+[INFO ] 2022-10-18 16:23:00.473 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:00.615 com.qa.base.BaseTest:198 - getAttribute - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})text: getProdDetailsSlbDetails from ProductDetailsPage
+[INFO ] 2022-10-18 16:23:00.752 com.qa.base.BaseTest:204 - scrollToElement - Methode scrollToElement called from ProductDetailsTest_validateProdTitleDetailsPrice
+[INFO ] 2022-10-18 16:23:00.753 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:01.791 com.qa.base.BaseTest:184 - click - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]}): Press SLB Title from ProductsPage
+[INFO ] 2022-10-18 16:23:01.970 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-18 16:23:01.972 com.qa.base.BaseTest:175 - waitForElementVisibility - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})
+[INFO ] 2022-10-18 16:23:01.972 com.qa.base.BaseTest:49 - getting android driver

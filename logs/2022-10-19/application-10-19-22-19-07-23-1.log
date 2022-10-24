@@ -1,0 +1,17 @@
+[INFO ] 2022-10-19 19:07:22.045 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-Password})
+[INFO ] 2022-10-19 19:07:22.051 com.qa.base.BaseTest:185 - click - Located by By.chained({By.AccessibilityId: test-LOGIN}): Press Login Button
+[INFO ] 2022-10-19 19:07:22.052 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:22.162 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:22.163 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 2022-10-19 19:07:22.164 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:22.574 com.qa.base.BaseTest:192 - sendKeys - Located by By.chained({By.AccessibilityId: test-Password}): Enter Password
+[INFO ] 2022-10-19 19:07:23.126 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.AccessibilityId: test-LOGIN})
+[INFO ] 2022-10-19 19:07:23.127 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:23.313 com.qa.base.BaseTest:185 - click - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]}): Press SLB Title from ProductsPage
+[INFO ] 2022-10-19 19:07:23.448 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:23.449 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})
+[INFO ] 2022-10-19 19:07:23.449 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:23.646 com.qa.base.BaseTest:185 - click - Located by By.chained({By.AccessibilityId: test-LOGIN}): Press Login Button
+[INFO ] 2022-10-19 19:07:23.705 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:23.706 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 2022-10-19 19:07:23.706 com.qa.base.BaseTest:49 - getting android driver

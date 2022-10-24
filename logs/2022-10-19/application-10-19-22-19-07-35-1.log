@@ -1,0 +1,14 @@
+[INFO ] 2022-10-19 19:07:34.044 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:34.057 com.qa.test.ProductDetailsTest:134 -  ++++++++++++++ validateProdTitlePriceWithDeeplink ++++++++++++++ 
+[INFO ] 2022-10-19 19:07:34.058 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:34.061 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:34.173 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 2022-10-19 19:07:34.176 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:35.355 com.qa.base.BaseTest:185 - click - Located by By.chained({By.AccessibilityId: test-LOGOUT}): Press Logout Button from - SettingsPage
+[INFO ] 2022-10-19 19:07:35.454 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:35.464 com.qa.test.ProductDetailsTest:156 -  ++++++++++++++ validateProdDetailsAndPriceWithDeeplink ++++++++++++++
+[INFO ] 2022-10-19 19:07:35.465 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:35.466 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:35.550 com.qa.base.BaseTest:176 - waitForElementVisibility - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})
+[INFO ] 2022-10-19 19:07:35.550 com.qa.base.BaseTest:49 - getting android driver
+[INFO ] 2022-10-19 19:07:35.960 com.qa.base.BaseTest:199 - getAttribute - Located by By.chained({By.xpath: (//android.widget.TextView[@content-desc="test-Item title"])[1]})text: getSLBTitle from ProductsPage
